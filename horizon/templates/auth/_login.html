@@ -1,0 +1,35 @@
+{% extends "horizon/common/_login_form.html" %}
+{% load i18n %}
+
+
+{% block form_action %}{% url login %}{% endblock %}
+{% block autocomplete %}{{ HORIZON_CONFIG.password_autocomplete }}{% endblock %}
+
+{% block modal-body %}
+  <section>
+    {% if request.user.is_authenticated and 'next' in request.GET %}
+    <div class="control-group clearfix error">
+      <span class="help-inline"><p>{% trans "You don't have permissions to access:" %}</p>
+        <p><b>{{ request.GET.next }}</b></p>
+        <p>{% trans "Login as different user or go back to" %}
+        <a href="{% url horizon:user_home %}">{% trans "home page" %}</a></p>
+      </span>
+    </div>
+    {% endif %}
+    {% if next %}<input type="hidden" name="{{ redirect_field_name }}" value="{{ next }}" />{% endif %}
+    {% include "horizon/common/_login_fields.html" %}
+  </section>
+  <section class="controls">
+    <div class="checkbox check-transparent">
+      <input type="checkbox" value="1" id="remember" checked>
+      <label for="remember">记住帐号</label>
+    </div>
+    <a href="#">忘记密码?</a>
+  </section>
+{% endblock %}
+
+{% block modal-footer %}
+<section class="log-in">
+	<button class="btn btn-blue">{% trans "Sign In" %}</button>
+</section>
+{% endblock %}

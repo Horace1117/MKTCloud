@@ -1,0 +1,36 @@
+{% load branding i18n %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <title>{% block title %}{% endblock %} - {% site_branding %}</title>
+    {% include "horizon/_conf.html" %}
+    {% block css %}
+      {% include "_stylesheets.html" %}
+    {% endblock %}
+    {% include "horizon/client_side/_script_loader.html" %}
+  </head>
+  <body id="{% block body_id %}{% endblock %}" class="bg">
+    {% block content %}
+      <div id="wrap">
+      	<div class="row">
+	        {% block sidebar %}
+	          {% include 'horizon/common/_sidebar.html' %}
+	        {% endblock %}
+	        <div id="content" class="col-md-12">
+	          <div class='topbar'>
+	          {% include "_header.html" %}
+	          {% block page_header %}{% endblock %}
+	          </div>
+	          {% include "horizon/_messages.html" %}
+	          {% block main %}{% endblock %}
+	        </div>
+      	</div>
+      </div>
+    {% endblock %}
+    <section class="videocontent" id="video"></section>
+    {% block js %}
+      {% include "horizon/_scripts.html" %}
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{% load horizon i18n %}
+
+
+<ul class="nav navbar-nav side-nav" id="sidebar">
+			<li class="collapsed-content">
+					<ul>
+						<li class="search">
+							<!-- Collapsed search pasting here at 768px -->
+						</li>
+					</ul>
+			</li>
+    {% for component in components %}
+      {% if user|has_permissions:component %}
+        <li{% if current.slug == component.slug %} class="navigation" id=""{{ component.name }} {% endif %}>
+          <a href="{{ component.get_absolute_url }}" class="sidebar-toggle" data-toggle="#"{{ component.name }}>{{ component.name }} <i class="fa fa-angle-up"></i></a>
+
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+

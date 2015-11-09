@@ -1,0 +1,29 @@
+{% load horizon i18n %}
+
+<ul class="nav navbar-nav side-nav" id="sidebar">
+			<li class="collapsed-content">
+					<ul>
+						<li class="search">
+							<!-- Collapsed search pasting here at 768px -->
+						</li>
+					</ul>
+			</li>
+    {% for component in components %}
+   
+        <li class="navigation" id={{ component.name }} {% if current.slug == component.slug %} {% endif %}>
+          <a href="{{ component.get_absolute_url }}" class="sidebar-toggle" data-toggle=#{{ component.name }} >{{ component.name }}<i class="fa fa-angle-up"></i> </a>
+     {% for heading, panels in groups.iteritems %}
+      {% ifequal heading component.name %}
+       <ul class="menu">
+          {% for panel in panels %}
+            <li>
+              <a href="{{ panel.get_absolute_url }}" {% if current == panel.slug %}class="active"{% endif %} > <i class="iconfont icon-mylibrarybooks"></i> {{ panel.name }}</a>
+           </li>
+         {% endfor %}
+        </ul>
+      {% endifequal %}
+       {% endfor %}
+
+        </li>
+    {% endfor %}
+  </ul>

@@ -1,0 +1,4757 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+#   <11315889@qq.com>, 2012.
+#   <daisy.ycguo@gmail.com>, 2012.
+# yuanke wei <weiyuanke123@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Horizon\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/horizon\n"
+"POT-Creation-Date: 2013-03-12 04:09+0000\n"
+"PO-Revision-Date: 2013-03-12 08:31+0000\n"
+"Last-Translator: dangdang <11315889@qq.com>\n"
+"Language-Team: English (http://www.transifex.com/projects/p/openstack/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: settings.py:152
+msgid "Bulgarian (Bulgaria)"
+msgstr "保加利亚语(保加利亚)"
+
+#: settings.py:153
+msgid "Czech"
+msgstr "捷克语"
+
+#: settings.py:154
+msgid "English"
+msgstr "英语"
+
+#: settings.py:155
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: settings.py:156
+msgid "French"
+msgstr "法语"
+
+#: settings.py:157
+msgid "Italiano"
+msgstr "意大利语"
+
+#: settings.py:158
+msgid "Japanese"
+msgstr "日语"
+
+#: settings.py:159
+msgid "Korean (Korea)"
+msgstr "朝鲜语(韩语)"
+
+#: settings.py:160
+msgid "Dutch (Netherlands)"
+msgstr "荷兰语 (荷兰)"
+
+#: settings.py:161
+msgid "Polish"
+msgstr "波兰语"
+
+#: settings.py:162
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: settings.py:163
+msgid "Portuguese (Brazil)"
+msgstr "葡萄牙语"
+
+#: settings.py:164
+msgid "Simplified Chinese"
+msgstr "简体中文"
+
+#: settings.py:165
+msgid "Traditional Chinese"
+msgstr "繁体中文"
+
+#: api/cinder.py:86
+msgid "Unknown instance"
+msgstr "未知的实例"
+
+#: api/keystone.py:57
+#, python-format
+msgid "%(type)s (%(backend)s backend)"
+msgstr ""
+
+#: api/nova.py:171
+#, python-format
+msgid "ALLOW %(from)s:%(to)s from %(group)s"
+msgstr ""
+
+#: api/nova.py:176
+#, python-format
+msgid "ALLOW %(from)s:%(to)s from %(cidr)s"
+msgstr ""
+
+#: dashboards/admin/dashboard.py:24
+msgid "System Panel"
+msgstr "系统面板"
+
+#: dashboards/admin/dashboard.py:30
+msgid "Admin"
+msgstr "虚拟数据中心"
+
+#: dashboards/monitor/dashboard.py:24
+msgid "Monitor"
+msgstr "监控报警"
+
+#: dashboards/monitor/notice/panel.py:9
+msgid "Notice"
+msgstr "通知列表"
+
+#: dashboards/cooperation/dashboard.py:24
+msgid "Cooperation"
+msgstr "用户协作"
+
+#: dashboards/support/dashboard.py:24
+msgid "Support"
+msgstr "服务支持"
+
+
+
+#: dashboards/admin/flavors/forms.py:36 dashboards/admin/info/tables.py:67
+#: dashboards/admin/instances/tables.py:91
+#: dashboards/admin/networks/forms.py:34 dashboards/admin/networks/forms.py:75
+#: dashboards/admin/networks/ports/forms.py:42
+#: dashboards/admin/networks/ports/tables.py:73
+#: dashboards/admin/networks/subnets/tables.py:70
+#: dashboards/admin/projects/tables.py:96
+#: dashboards/admin/projects/workflows.py:83
+#: dashboards/admin/routers/tables.py:63
+#: dashboards/admin/routers/ports/tables.py:43
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:7
+#: dashboards/admin/volumes/forms.py:31 dashboards/admin/volumes/tables.py:26
+#: dashboards/admin/volumes/tables.py:44
+#: dashboards/project/access_and_security/security_groups/forms.py:36
+#: dashboards/project/access_and_security/security_groups/tables.py:58
+#: dashboards/project/images_and_snapshots/images/forms.py:43
+#: dashboards/project/images_and_snapshots/images/forms.py:141
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:9
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:10
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:81
+#: dashboards/project/instances/templates/instances/_detail_overview.html:9
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:9
+#: dashboards/project/loadbalancers/tables.py:111
+#: dashboards/project/loadbalancers/workflows.py:34
+#: dashboards/project/loadbalancers/workflows.py:119
+#: dashboards/project/networks/forms.py:37
+#: dashboards/project/networks/tables.py:94
+#: dashboards/project/networks/ports/forms.py:36
+#: dashboards/project/networks/ports/tables.py:57
+#: dashboards/project/networks/subnets/tables.py:82
+#: dashboards/project/networks/templates/networks/_detail_overview.html:7
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:9
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:9
+#: dashboards/project/routers/tables.py:123
+#: dashboards/project/routers/ports/tables.py:75
+#: dashboards/project/routers/templates/routers/_detail_overview.html:7
+#: dashboards/project/volumes/tables.py:152
+#: dashboards/project/volumes/tables.py:172
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:9
+msgid "Name"
+msgstr "姓名"
+
+#: dashboards/admin/flavors/forms.py:37 dashboards/admin/flavors/tables.py:52
+#: dashboards/admin/projects/workflows.py:44
+#: dashboards/project/instances/templates/instances/_detail_overview.html:26
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:10
+#: usage/tables.py:19
+msgid "VCPUs"
+msgstr "虚拟CPU"
+
+#: dashboards/admin/flavors/forms.py:38
+msgid "RAM MB"
+msgstr ""
+
+#: dashboards/admin/flavors/forms.py:39
+msgid "Root Disk GB"
+msgstr ""
+
+#: dashboards/admin/flavors/forms.py:40
+msgid "Ephemeral Disk GB"
+msgstr ""
+
+#: dashboards/admin/flavors/forms.py:41
+msgid "Swap Disk MB"
+msgstr ""
+
+#: dashboards/admin/flavors/forms.py:49
+msgid "Unable to get flavor list"
+msgstr "无法获得类型模板列表"
+
+#: dashboards/admin/flavors/forms.py:56
+#, python-format
+msgid "The name \"%s\" is already used by another flavor."
+msgstr "\"%s\"已经被其他类型模板使用"
+
+#: dashboards/admin/flavors/forms.py:70
+#, python-format
+msgid "Created flavor \"%s\"."
+msgstr "新建类型模板\"%s\"."
+
+#: dashboards/admin/flavors/forms.py:74
+msgid "Unable to create flavor."
+msgstr "不能创建类型模板"
+
+#: dashboards/admin/flavors/forms.py:106
+#, python-format
+msgid "Updated flavor \"%s\"."
+msgstr "更新类型模板 \"%s\"."
+
+#: dashboards/admin/flavors/forms.py:110
+msgid "Unable to update flavor."
+msgstr "不能更新类型模板"
+
+#: dashboards/admin/flavors/panel.py:29 dashboards/admin/flavors/tables.py:15
+#: dashboards/admin/flavors/tables.py:66
+#: dashboards/admin/flavors/templates/flavors/index.html:3
+#: dashboards/admin/flavors/templates/flavors/index.html:6
+msgid "Flavors"
+msgstr "类型模板"
+
+#: dashboards/admin/flavors/tables.py:14
+#: dashboards/admin/flavors/templates/flavors/extras/create.html:7
+#: dashboards/admin/flavors/templates/flavors/extras/edit.html:7
+#: dashboards/admin/flavors/templates/flavors/extras/index.html:7
+#: dashboards/project/instances/templates/instances/_detail_overview.html:22
+#: dashboards/project/instances/workflows/create_instance.py:180
+msgid "Flavor"
+msgstr "类型模板"
+
+#: dashboards/admin/flavors/tables.py:23
+#: dashboards/admin/flavors/templates/flavors/_create.html:8
+#: dashboards/admin/flavors/templates/flavors/_create.html:23
+#: dashboards/admin/flavors/templates/flavors/create.html:3
+#: dashboards/admin/flavors/templates/flavors/create.html:6
+msgid "Create Flavor"
+msgstr "创建类型模板"
+
+#: dashboards/admin/flavors/tables.py:30
+#: dashboards/admin/flavors/templates/flavors/_edit.html:8
+#: dashboards/admin/flavors/templates/flavors/edit.html:3
+#: dashboards/admin/flavors/templates/flavors/edit.html:6
+msgid "Edit Flavor"
+msgstr "编辑类型模板"
+
+#: dashboards/admin/flavors/tables.py:37
+msgid "View Extra Specs"
+msgstr "查看其他规格"
+
+#: dashboards/admin/flavors/tables.py:43 dashboards/admin/flavors/tables.py:47
+#, python-format
+msgid "%sMB"
+msgstr ""
+
+#: dashboards/admin/flavors/tables.py:51
+msgid "Flavor Name"
+msgstr "模板名称"
+
+#: dashboards/admin/flavors/tables.py:54
+#: dashboards/project/instances/templates/instances/_detail_overview.html:24
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:14
+#: usage/tables.py:22
+msgid "RAM"
+msgstr ""
+
+#: dashboards/admin/flavors/tables.py:56
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:11
+msgid "Root Disk"
+msgstr "根磁盘"
+
+#: dashboards/admin/flavors/tables.py:58
+#: dashboards/project/instances/templates/instances/_detail_overview.html:31
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:12
+msgid "Ephemeral Disk"
+msgstr "临时磁盘"
+
+#: dashboards/admin/flavors/tables.py:60
+msgid "Swap Disk"
+msgstr "更换磁盘"
+
+#: dashboards/admin/flavors/views.py:49
+msgid "Unable to retrieve flavor list."
+msgstr "无法检索模板列表"
+
+#: dashboards/admin/flavors/views.py:76
+#: dashboards/admin/flavors/extras/views.py:45
+msgid "Unable to retrieve flavor data."
+msgstr "无法检索模板数据"
+
+#: dashboards/admin/flavors/extras/forms.py:34
+#: dashboards/admin/flavors/extras/forms.py:52
+#: dashboards/admin/flavors/extras/tables.py:61
+msgid "Key"
+msgstr "键"
+
+#: dashboards/admin/flavors/extras/forms.py:35
+#: dashboards/admin/flavors/extras/forms.py:53
+#: dashboards/admin/flavors/extras/tables.py:62
+msgid "Value"
+msgstr "值"
+
+#: dashboards/admin/flavors/extras/forms.py:43
+#, python-format
+msgid "Created extra spec \"%s\"."
+msgstr "创建其他规格\"%s\"."
+
+#: dashboards/admin/flavors/extras/forms.py:48
+msgid "Unable to create flavor extra spec."
+msgstr "不能创建其他规格类型模板"
+
+#: dashboards/admin/flavors/extras/forms.py:62
+#, python-format
+msgid "Saved extra spec \"%s\"."
+msgstr "保存规格\"%s\"."
+
+#: dashboards/admin/flavors/extras/forms.py:66
+msgid "Unable to edit extra spec."
+msgstr "不能编辑其他规格"
+
+#: dashboards/admin/flavors/extras/tables.py:31
+msgid "ExtraSpec"
+msgstr "其他规格"
+
+#: dashboards/admin/flavors/extras/tables.py:32
+msgid "ExtraSpecs"
+msgstr "其他规格"
+
+#: dashboards/admin/flavors/extras/tables.py:41
+#: dashboards/admin/flavors/templates/flavors/extras/_create.html:24
+#: dashboards/project/networks/workflows.py:241
+#: dashboards/project/networks/subnets/workflows.py:61
+msgid "Create"
+msgstr "新建"
+
+#: dashboards/admin/flavors/extras/tables.py:51
+#: dashboards/admin/users/tables.py:30
+#: dashboards/project/images_and_snapshots/images/tables.py:71
+msgid "Edit"
+msgstr "编辑"
+
+#: dashboards/admin/flavors/extras/tables.py:66
+msgid "Extra Specs"
+msgstr "其他规格"
+
+#: dashboards/admin/flavors/extras/views.py:61
+msgid "Unable to retrieve extra spec list."
+msgstr "无法检索额外的规格清单"
+
+#: dashboards/admin/flavors/extras/views.py:90
+msgid "Unable to retrieve flavor extra spec data."
+msgstr "无法检索额外的规格数据"
+
+#: dashboards/admin/flavors/templates/flavors/_create.html:17
+#: dashboards/admin/flavors/templates/flavors/_edit.html:17
+#: dashboards/admin/flavors/templates/flavors/extras/_create.html:18
+#: dashboards/admin/flavors/templates/flavors/extras/_edit.html:18
+#: dashboards/admin/images/templates/images/_update.html:17
+#: dashboards/admin/networks/templates/networks/_create.html:17
+#: dashboards/admin/networks/templates/networks/ports/_create.html:17
+#: dashboards/admin/projects/tables.py:98
+#: dashboards/admin/projects/workflows.py:86
+#: dashboards/admin/projects/templates/projects/_add_user.html:17
+#: dashboards/admin/projects/templates/projects/_create.html:17
+#: dashboards/admin/projects/templates/projects/_create_user.html:17
+#: dashboards/admin/projects/templates/projects/_quotas.html:16
+#: dashboards/admin/projects/templates/projects/_update.html:17
+#: dashboards/admin/routers/templates/routers/ports/_create.html:17
+#: dashboards/admin/routers/templates/routers/ports/_setgateway.html:17
+#: dashboards/admin/users/templates/users/_create.html:16
+#: dashboards/admin/users/templates/users/_update.html:16
+#: dashboards/admin/volumes/templates/volumes/_create_volume_type.html:17
+#: dashboards/project/access_and_security/security_groups/forms.py:42
+#: dashboards/project/access_and_security/security_groups/tables.py:59
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:16
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:16
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:17
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_create.html:17
+#: dashboards/project/containers/templates/containers/_copy.html:16
+#: dashboards/project/containers/templates/containers/_create.html:16
+#: dashboards/project/containers/templates/containers/_upload.html:17
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:15
+#: dashboards/project/loadbalancers/tables.py:113
+#: dashboards/project/loadbalancers/workflows.py:37
+#: dashboards/project/loadbalancers/workflows.py:122
+#: dashboards/project/networks/templates/networks/_create.html:16
+#: dashboards/project/routers/templates/routers/ports/_create.html:17
+#: dashboards/project/routers/templates/routers/ports/_setgateway.html:17
+#: dashboards/project/volumes/forms.py:30
+#: dashboards/project/volumes/forms.py:242
+#: dashboards/project/volumes/tables.py:155
+#: dashboards/project/volumes/templates/volumes/_create.html:18
+#: dashboards/project/volumes/templates/volumes/_create_snapshot.html:17
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:14
+msgid "Description"
+msgstr "描述"
+
+#: dashboards/admin/flavors/templates/flavors/_create.html:18
+msgid "From here you can define the sizing of a new flavor."
+msgstr "从这里你可以定义类型模板的大小"
+
+#: dashboards/admin/flavors/templates/flavors/_create.html:24
+#: dashboards/admin/flavors/templates/flavors/_edit.html:25
+#: dashboards/admin/flavors/templates/flavors/extras/_create.html:25
+#: dashboards/admin/flavors/templates/flavors/extras/_edit.html:25
+#: dashboards/admin/images/templates/images/_create.html:33
+#: dashboards/admin/images/templates/images/_update.html:24
+#: dashboards/admin/networks/templates/networks/_create.html:24
+#: dashboards/admin/networks/templates/networks/_update.html:23
+#: dashboards/admin/networks/templates/networks/ports/_create.html:24
+#: dashboards/admin/networks/templates/networks/ports/_update.html:28
+#: dashboards/admin/projects/templates/projects/_add_user.html:24
+#: dashboards/admin/projects/templates/projects/_create.html:24
+#: dashboards/admin/projects/templates/projects/_create_user.html:24
+#: dashboards/admin/projects/templates/projects/_quotas.html:23
+#: dashboards/admin/projects/templates/projects/_update.html:24
+#: dashboards/admin/routers/templates/routers/_create.html:20
+#: dashboards/admin/routers/templates/routers/ports/_create.html:24
+#: dashboards/admin/routers/templates/routers/ports/_setgateway.html:24
+#: dashboards/admin/users/templates/users/_create.html:33
+#: dashboards/admin/users/templates/users/_update.html:33
+#: dashboards/admin/volumes/templates/volumes/_create_volume_type.html:28
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:32
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:24
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:24
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:27
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_create.html:24
+#: dashboards/project/containers/templates/containers/_copy.html:23
+#: dashboards/project/containers/templates/containers/_create.html:23
+#: dashboards/project/containers/templates/containers/_upload.html:25
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:33
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_update.html:23
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_create.html:24
+#: dashboards/project/networks/templates/networks/_create.html:23
+#: dashboards/project/networks/templates/networks/_update.html:23
+#: dashboards/project/networks/templates/networks/ports/_update.html:28
+#: dashboards/project/routers/templates/routers/_create.html:20
+#: dashboards/project/routers/templates/routers/ports/_create.html:24
+#: dashboards/project/routers/templates/routers/ports/_setgateway.html:24
+#: dashboards/project/volumes/templates/volumes/_attach.html:24
+#: dashboards/project/volumes/templates/volumes/_create.html:56
+#: dashboards/project/volumes/templates/volumes/_create_snapshot.html:24
+#: dashboards/settings/user/templates/user/_settings.html:24
+msgid "Cancel"
+msgstr "取消"
+
+#: dashboards/admin/flavors/templates/flavors/_edit.html:18
+msgid "From here you can alter the sizing of the current flavor."
+msgstr "从这里你可以更改类型模板的大小"
+
+#: dashboards/admin/flavors/templates/flavors/_edit.html:19
+msgid ""
+"Note: this will not affect the resources allocated to any existing instances"
+" using this flavor."
+msgstr ""
+"注意: 这不会影响资源分配给任何现有的实例"
+" 使用这个类型模板."
+
+#: dashboards/admin/flavors/templates/flavors/_edit.html:24
+#: dashboards/admin/flavors/templates/flavors/extras/_edit.html:24
+#: dashboards/admin/projects/workflows.py:294
+#: dashboards/project/instances/workflows/update_instance.py:162
+#: dashboards/settings/user/templates/user/_settings.html:23
+msgid "Save"
+msgstr "保存"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_create.html:9
+#: dashboards/admin/flavors/templates/flavors/extras/create.html:4
+msgid "Create Flavor Extra Spec"
+msgstr "创建额外的类型模板"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_create.html:19
+msgid "Create a new \"extra spec\" key-value pair for a flavor."
+msgstr "创建其他规格类型模板的键值对"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_edit.html:9
+#: dashboards/admin/flavors/templates/flavors/extras/edit.html:4
+msgid "Edit Flavor Extra Spec"
+msgstr "编辑其他规格类型模板"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_edit.html:19
+msgid "Update an \"extra spec\" key-value pair for a flavor."
+msgstr "更新其他规格类型模板的键值对"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_index.html:5
+#: dashboards/admin/flavors/templates/flavors/extras/index.html:4
+msgid "Flavor Extra Specs"
+msgstr "其他规格类型模板"
+
+#: dashboards/admin/flavors/templates/flavors/extras/_index.html:12
+msgid "Close"
+msgstr "关闭"
+
+#: dashboards/admin/images/panel.py:29 dashboards/admin/images/tables.py:49
+#: dashboards/admin/images/templates/images/index.html:3
+#: dashboards/admin/images/templates/images/index.html:6
+#: dashboards/project/images_and_snapshots/images/tables.py:50
+#: dashboards/project/images_and_snapshots/images/tables.py:190
+msgid "Images"
+msgstr "镜像"
+
+#: dashboards/admin/images/tables.py:45
+#: dashboards/project/images_and_snapshots/images/tables.py:171
+#: dashboards/project/instances/templates/instances/_detail_overview.html:78
+msgid "Image Name"
+msgstr "镜像名称"
+
+#: dashboards/admin/images/views.py:56
+msgid "Unable to retrieve image list."
+msgstr "无法检索到镜像列表"
+
+#: dashboards/admin/images/templates/images/_create.html:8
+#: dashboards/admin/images/templates/images/create.html:3
+#: dashboards/admin/images/templates/images/create.html:6
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:8
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/create.html:3
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/create.html:6
+msgid "Create An Image"
+msgstr "创建一个镜像"
+
+#: dashboards/admin/images/templates/images/_create.html:17
+#: dashboards/admin/networks/templates/networks/_update.html:16
+#: dashboards/admin/networks/templates/networks/ports/_update.html:21
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:17
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:17
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_update.html:16
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_create.html:17
+#: dashboards/project/networks/templates/networks/_update.html:16
+#: dashboards/project/networks/templates/networks/ports/_update.html:21
+#: dashboards/settings/user/templates/user/_settings.html:17
+msgid "Description:"
+msgstr "描述："
+
+#: dashboards/admin/images/templates/images/_create.html:19
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:19
+msgid "Specify an image to upload to the Image Service."
+msgstr "指定一个镜像上传镜像服务"
+
+#: dashboards/admin/images/templates/images/_create.html:22
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:22
+msgid ""
+"Currently only images available via an HTTP URL are supported. The image "
+"location must be accessible to the Image Service. Compressed image binaries "
+"are supported (.zip and .tar.gz.)"
+msgstr ""
+"目前仅支持镜像通过HTTP URL上传. 镜像 "
+"的位置 必须是 可访问的镜像服务. 压缩镜像 "
+"支持(.zip and .tar.gz.)"
+
+#: dashboards/admin/images/templates/images/_create.html:25
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:25
+msgid "Please note: "
+msgstr "请注意："
+
+#: dashboards/admin/images/templates/images/_create.html:26
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:26
+msgid ""
+"The Image Location field MUST be a valid and direct URL to the image binary."
+" URLs that redirect or serve error pages will result in unusable images."
+msgstr ""
+"镜像位置必须是一个有效的镜像文件地址."
+" 链接重定向或页面出错将导致无法使用此镜像."
+
+#: dashboards/admin/images/templates/images/_create.html:32
+#: dashboards/project/images_and_snapshots/images/tables.py:64
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_create.html:32
+msgid "Create Image"
+msgstr "创建镜像"
+
+#: dashboards/admin/images/templates/images/_update.html:8
+#: dashboards/admin/images/templates/images/_update.html:23
+#: dashboards/admin/images/templates/images/update.html:4
+#: dashboards/admin/images/templates/images/update.html:7
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_update.html:7
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_update.html:22
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/update.html:3
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/update.html:6
+msgid "Update Image"
+msgstr "更新镜像"
+
+#: dashboards/admin/images/templates/images/_update.html:18
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_update.html:17
+msgid "From here you can modify different properties of an image."
+msgstr "从这里可以修改镜像的不同属性"
+
+#: dashboards/admin/info/panel.py:29
+#: dashboards/admin/info/templates/info/index.html:3
+#: dashboards/admin/info/templates/info/index.html:6
+msgid "System Info"
+msgstr "系统信息"
+
+#: dashboards/admin/info/tables.py:28
+msgid "Quota Name"
+msgstr "配额名称"
+
+#: dashboards/admin/info/tables.py:29
+msgid "Limit"
+msgstr "限制"
+
+#: dashboards/admin/info/tables.py:36
+msgid "Quotas"
+msgstr "配额"
+
+#: dashboards/admin/info/tables.py:66
+msgid "Id"
+msgstr "ID"
+
+#: dashboards/admin/info/tables.py:68
+#: dashboards/project/access_and_security/api_access/tables.py:54
+msgid "Service"
+msgstr "服务"
+
+#: dashboards/admin/info/tables.py:69 dashboards/admin/instances/tables.py:87
+#: dashboards/admin/volumes/tables.py:28
+msgid "Host"
+msgstr "主机"
+
+#: dashboards/admin/info/tables.py:71 dashboards/admin/projects/tables.py:100
+#: dashboards/admin/projects/workflows.py:88
+#: dashboards/admin/projects/workflows.py:275
+#: dashboards/admin/users/tables.py:41 dashboards/admin/users/tables.py:113
+msgid "Enabled"
+msgstr "启用"
+
+#: dashboards/admin/info/tables.py:76 dashboards/admin/info/tabs.py:50
+msgid "Services"
+msgstr "服务"
+
+#: dashboards/admin/info/tabs.py:30
+msgid "Default Quotas"
+msgstr "默认配额"
+
+#: dashboards/admin/info/tabs.py:44
+msgid "Unable to get quota info."
+msgstr "不能得到配额信息"
+
+#: dashboards/admin/instances/panel.py:29
+#: dashboards/admin/instances/tables.py:46
+#: dashboards/admin/instances/tables.py:115
+#: dashboards/admin/instances/templates/instances/index.html:3
+#: dashboards/admin/projects/workflows.py:45
+#: dashboards/project/instances/panel.py:25
+#: dashboards/project/instances/tables.py:74
+#: dashboards/project/instances/tables.py:89
+#: dashboards/project/instances/tables.py:115
+#: dashboards/project/instances/tables.py:144
+#: dashboards/project/instances/tables.py:470
+#: dashboards/project/instances/templates/instances/index.html:3
+#: dashboards/project/instances/templates/instances/index.html:6
+msgid "Instances"
+msgstr "实例"
+
+#: dashboards/admin/instances/tables.py:43
+msgid "Migrate"
+msgstr "迁移"
+
+#: dashboards/admin/instances/tables.py:44
+msgid "Scheduled migration (pending confirmation) of"
+msgstr "计划"
+
+#: dashboards/admin/instances/tables.py:45
+#: dashboards/project/access_and_security/floating_ips/tables.py:117
+#: dashboards/project/access_and_security/floating_ips/workflows.py:38
+#: dashboards/project/instances/tables.py:73
+#: dashboards/project/instances/tables.py:88
+#: dashboards/project/instances/tables.py:114
+#: dashboards/project/instances/tables.py:143
+#: dashboards/project/volumes/tables.py:219
+msgid "Instance"
+msgstr "实例"
+
+#: dashboards/admin/instances/tables.py:80
+#: dashboards/admin/networks/forms.py:36
+#: dashboards/admin/networks/tables.py:67
+#: dashboards/project/dashboard.py:43
+#: dashboards/project/instances/workflows/create_instance.py:41
+#: dashboards/admin/projects/tables.py:71 dashboards/admin/routers/forms.py:37
+#: dashboards/admin/routers/tables.py:61 dashboards/admin/volumes/tables.py:29
+msgid "Project"
+msgstr "云主机"
+
+#: dashboards/admin/instances/tables.py:92
+#: dashboards/project/access_and_security/floating_ips/tables.py:114
+#: dashboards/project/access_and_security/floating_ips/workflows.py:34
+#: dashboards/project/access_and_security/floating_ips/workflows.py:41
+#: dashboards/project/instances/tables.py:447
+#: dashboards/project/loadbalancers/tables.py:138
+msgid "IP Address"
+msgstr "IP地址"
+
+#: dashboards/admin/instances/tables.py:94
+#: dashboards/project/containers/tables.py:231
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:30
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:37
+#: dashboards/project/instances/tables.py:449
+#: dashboards/project/volumes/tables.py:158
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:26
+msgid "Size"
+msgstr "大小"
+
+#: dashboards/admin/instances/tables.py:99
+#: dashboards/admin/networks/tables.py:74
+#: dashboards/admin/networks/ports/tables.py:77
+#: dashboards/admin/routers/tables.py:67
+#: dashboards/admin/routers/ports/tables.py:47
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:13
+#: dashboards/project/images_and_snapshots/images/tables.py:177
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:13
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:18
+#: dashboards/project/instances/tables.py:454
+#: dashboards/project/instances/templates/instances/_detail_overview.html:13
+#: dashboards/project/networks/tables.py:100
+#: dashboards/project/networks/ports/tables.py:61
+#: dashboards/project/networks/templates/networks/_detail_overview.html:13
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:31
+#: dashboards/project/routers/tables.py:127
+#: dashboards/project/routers/ports/tables.py:79
+#: dashboards/project/routers/templates/routers/_detail_overview.html:11
+#: dashboards/project/volumes/tables.py:162
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:17
+msgid "Status"
+msgstr "状态"
+
+#: dashboards/admin/instances/tables.py:104
+#: dashboards/project/instances/tables.py:459
+msgid "Task"
+msgstr "任务"
+
+#: dashboards/admin/instances/tables.py:111
+#: dashboards/project/instances/tables.py:466
+msgid "Power State"
+msgstr "电源状态"
+
+#: dashboards/admin/instances/views.py:55
+#: dashboards/project/access_and_security/tabs.py:97
+#: dashboards/project/access_and_security/floating_ips/workflows.py:86
+msgid "Unable to retrieve instance list."
+msgstr "无法检索实例列表。"
+
+#: dashboards/admin/instances/views.py:69
+#: dashboards/admin/networks/views.py:48
+msgid "Unable to retrieve instance tenant information."
+msgstr "无法检索实例租户信息。"
+
+#: dashboards/admin/instances/views.py:86
+#: dashboards/project/instances/views.py:81
+msgid "Unable to retrieve instance size information."
+msgstr ""
+
+#: dashboards/admin/instances/templates/instances/index.html:6
+msgid "All Instances"
+msgstr "无法检索实例大小信息。"
+
+#: dashboards/admin/networks/forms.py:37 dashboards/admin/networks/forms.py:80
+#: dashboards/admin/networks/tables.py:76
+#: dashboards/admin/networks/ports/forms.py:44
+#: dashboards/admin/networks/ports/tables.py:79
+#: dashboards/admin/routers/ports/tables.py:51
+#: dashboards/project/loadbalancers/workflows.py:41
+#: dashboards/project/loadbalancers/workflows.py:143
+#: dashboards/project/loadbalancers/workflows.py:258
+#: dashboards/project/loadbalancers/workflows.py:377
+#: dashboards/project/networks/forms.py:42
+#: dashboards/project/networks/tables.py:102
+#: dashboards/project/networks/workflows.py:42
+#: dashboards/project/networks/ports/forms.py:38
+#: dashboards/project/networks/ports/tables.py:63
+#: dashboards/project/networks/templates/networks/_detail_overview.html:15
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:33
+#: dashboards/project/routers/ports/tables.py:83
+msgid "Admin State"
+msgstr "管理员状态"
+
+#: dashboards/admin/networks/forms.py:39 dashboards/admin/networks/forms.py:81
+#: dashboards/admin/networks/tables.py:72
+#: dashboards/project/networks/tables.py:98
+#: dashboards/project/networks/templates/networks/_detail_overview.html:17
+msgid "Shared"
+msgstr "共享"
+
+#: dashboards/admin/networks/forms.py:41 dashboards/admin/networks/forms.py:82
+#: dashboards/admin/routers/tables.py:70
+#: dashboards/project/networks/templates/networks/_detail_overview.html:19
+#: dashboards/project/routers/tables.py:130
+#: dashboards/project/routers/ports/forms.py:90
+msgid "External Network"
+msgstr "外部网络"
+
+#: dashboards/admin/networks/forms.py:50 dashboards/admin/routers/forms.py:42
+#: dashboards/admin/users/forms.py:42
+msgid "Select a project"
+msgstr "选择一个项目"
+
+#: dashboards/admin/networks/forms.py:64
+#, python-format
+msgid "Network %s was successfully created."
+msgstr "网络 %s 建立成功"
+
+#: dashboards/admin/networks/forms.py:70
+#, python-format
+msgid "Failed to create network %s"
+msgstr "创建网络 %s 失败"
+
+#: dashboards/admin/networks/forms.py:77
+#: dashboards/admin/networks/templates/networks/ports/_update.html:12
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:9
+#: dashboards/admin/users/forms.py:114
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:11
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:12
+#: dashboards/project/instances/templates/instances/_detail_overview.html:11
+#: dashboards/project/loadbalancers/tables.py:154
+#: dashboards/project/networks/forms.py:39
+#: dashboards/project/networks/templates/networks/_detail_overview.html:9
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:11
+#: dashboards/project/networks/templates/networks/ports/_update.html:12
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:11
+#: dashboards/project/routers/templates/routers/_detail_overview.html:9
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:11
+msgid "ID"
+msgstr ""
+
+#: dashboards/admin/networks/forms.py:93
+#: dashboards/project/networks/forms.py:51
+#, python-format
+msgid "Network %s was successfully updated."
+msgstr "网络 %s 更新成功"
+
+#: dashboards/admin/networks/forms.py:98
+#: dashboards/project/networks/forms.py:56
+#, python-format
+msgid "Failed to update network %s"
+msgstr "更新网络 %s 失败"
+
+#: dashboards/admin/networks/panel.py:25
+#: dashboards/admin/networks/tables.py:35
+#: dashboards/admin/networks/tables.py:80
+#: dashboards/admin/networks/templates/networks/index.html:3
+#: dashboards/admin/networks/templates/networks/index.html:6
+#: dashboards/project/instances/workflows/create_instance.py:418
+#: dashboards/project/networks/panel.py:25
+#: dashboards/project/networks/tables.py:44
+#: dashboards/project/networks/tables.py:106
+#: dashboards/project/networks/templates/networks/index.html:3
+#: dashboards/project/networks/templates/networks/index.html:6
+msgid "Networks"
+msgstr "网络"
+
+#: dashboards/admin/networks/tables.py:34
+#: dashboards/project/networks/tables.py:43
+#: dashboards/project/networks/templates/networks/subnets/index.html:3
+#: dashboards/project/networks/templates/networks/subnets/index.html:6
+msgid "Network"
+msgstr "网络"
+
+#: dashboards/admin/networks/tables.py:41
+#: dashboards/project/networks/tables.py:59
+#, python-format
+msgid "Failed to delete network %s"
+msgstr "删除网络 %s 失败"
+
+#: dashboards/admin/networks/tables.py:49
+#: dashboards/admin/networks/templates/networks/_create.html:8
+#: dashboards/admin/networks/templates/networks/_create.html:23
+#: dashboards/admin/networks/templates/networks/create.html:3
+#: dashboards/admin/networks/templates/networks/create.html:6
+#: dashboards/project/network_topology/templates/network_topology/index.html:27
+#: dashboards/project/networks/tables.py:67
+#: dashboards/project/networks/workflows.py:240
+#: dashboards/project/networks/templates/networks/_create.html:7
+#: dashboards/project/networks/templates/networks/_create.html:22
+#: dashboards/project/networks/templates/networks/create.html:3
+#: dashboards/project/networks/templates/networks/create.html:6
+msgid "Create Network"
+msgstr "创建网络"
+
+#: dashboards/admin/networks/tables.py:56
+#: dashboards/admin/networks/templates/networks/_update.html:7
+#: dashboards/project/networks/tables.py:74
+#: dashboards/project/networks/templates/networks/_update.html:7
+msgid "Edit Network"
+msgstr "编辑网络"
+
+#: dashboards/admin/networks/tables.py:68
+#: dashboards/admin/networks/ports/forms.py:35
+#: dashboards/project/networks/workflows.py:38
+msgid "Network Name"
+msgstr "网络名称"
+
+#: dashboards/admin/networks/tables.py:71
+#: dashboards/project/networks/tables.py:97
+msgid "Subnets Associated"
+msgstr "子网关联"
+
+#: dashboards/admin/networks/views.py:60
+#: dashboards/project/networks/views.py:52
+msgid "Network list can not be retrieved."
+msgstr "网络列表不能检索。"
+
+#: dashboards/admin/networks/views.py:91
+#: dashboards/project/networks/views.py:110
+msgid "Subnet list can not be retrieved."
+msgstr "子网列表不能检索。"
+
+#: dashboards/admin/networks/views.py:103
+#: dashboards/project/networks/views.py:122
+#: dashboards/project/routers/views.py:137
+msgid "Port list can not be retrieved."
+msgstr "端口列表不能检索。"
+
+#: dashboards/admin/networks/views.py:118
+#: dashboards/project/networks/views.py:135
+#: dashboards/project/networks/subnets/tables.py:96
+#, python-format
+msgid "Unable to retrieve details for network \"%s\"."
+msgstr "无法检索 \"%s\" 网络细节。"
+
+#: dashboards/admin/networks/ports/forms.py:38
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:14
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:14
+msgid "Network ID"
+msgstr "网络ID"
+
+#: dashboards/admin/networks/ports/forms.py:46
+#: dashboards/admin/networks/ports/forms.py:78
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:38
+msgid "Device ID"
+msgstr "设备ID"
+
+#: dashboards/admin/networks/ports/forms.py:49
+#: dashboards/admin/networks/ports/forms.py:81
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:37
+msgid "Device Owner"
+msgstr "设备拥有者"
+
+#: dashboards/admin/networks/ports/forms.py:63
+#, python-format
+msgid "Port %s was successfully created."
+msgstr "端口 %s 成功建立"
+
+#: dashboards/admin/networks/ports/forms.py:68
+#, python-format
+msgid "Failed to create a port for network %s"
+msgstr "网络 %s 创建端口失败"
+
+#: dashboards/admin/networks/ports/forms.py:94
+#: dashboards/project/networks/ports/forms.py:47
+#, python-format
+msgid "Port %s was successfully updated."
+msgstr "端口 %s 更新成功"
+
+#: dashboards/admin/networks/ports/forms.py:99
+#: dashboards/project/networks/ports/forms.py:52
+#, python-format
+msgid "Failed to update port %s"
+msgstr "端口 %s 更新失败"
+
+#: dashboards/admin/networks/ports/tables.py:34
+#: dashboards/project/access_and_security/security_groups/forms.py:73
+#: dashboards/project/access_and_security/security_groups/forms.py:82
+#: dashboards/project/access_and_security/security_groups/forms.py:89
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:6
+msgid "Port"
+msgstr "端口"
+
+#: dashboards/admin/networks/ports/tables.py:35
+#: dashboards/admin/networks/ports/tables.py:83
+#: dashboards/project/networks/ports/tables.py:70
+msgid "Ports"
+msgstr "端口"
+
+#: dashboards/admin/networks/ports/tables.py:41
+#: dashboards/admin/networks/subnets/tables.py:39
+#: dashboards/project/networks/subnets/tables.py:51
+#, python-format
+msgid "Failed to delete subnet %s"
+msgstr "子网  %s 删除失败"
+
+#: dashboards/admin/networks/ports/tables.py:51
+#: dashboards/admin/networks/templates/networks/ports/_create.html:8
+#: dashboards/admin/networks/templates/networks/ports/_create.html:23
+#: dashboards/admin/networks/templates/networks/ports/create.html:3
+#: dashboards/admin/networks/templates/networks/ports/create.html:6
+msgid "Create Port"
+msgstr "创建端口"
+
+#: dashboards/admin/networks/ports/tables.py:62
+#: dashboards/admin/networks/templates/networks/ports/_update.html:7
+#: dashboards/project/networks/ports/tables.py:46
+#: dashboards/project/networks/templates/networks/ports/_update.html:7
+msgid "Edit Port"
+msgstr "编辑端口"
+
+#: dashboards/admin/networks/ports/tables.py:75
+#: dashboards/admin/routers/ports/tables.py:45
+#: dashboards/project/networks/ports/tables.py:59
+#: dashboards/project/routers/ports/tables.py:77
+msgid "Fixed IPs"
+msgstr "修复IP"
+
+#: dashboards/admin/networks/ports/tables.py:76
+#: dashboards/admin/routers/ports/tables.py:46
+#: dashboards/project/routers/ports/tables.py:78
+msgid "Device Attached"
+msgstr "设备链接"
+
+#: dashboards/admin/networks/ports/tabs.py:32
+#: dashboards/admin/overview/panel.py:29
+#: dashboards/admin/overview/templates/overview/usage.html:6
+#: dashboards/project/images_and_snapshots/images/tabs.py:27
+#: dashboards/project/images_and_snapshots/volume_snapshots/tabs.py:27
+#: dashboards/project/instances/tabs.py:26
+#: dashboards/project/networks/ports/tabs.py:32
+#: dashboards/project/networks/subnets/tabs.py:32
+#: dashboards/project/overview/panel.py:29
+#: dashboards/project/overview/templates/overview/usage.html:6
+#: dashboards/project/routers/tabs.py:26
+#: dashboards/project/routers/ports/tabs.py:29
+#: dashboards/project/volumes/tabs.py:27
+msgid "Overview"
+msgstr "概览"
+
+#: dashboards/admin/networks/ports/tabs.py:42
+#: dashboards/project/networks/ports/tabs.py:42
+#: dashboards/project/routers/ports/tabs.py:40
+msgid "Unable to retrieve port details."
+msgstr "无法检索端口详细信息"
+
+#: dashboards/admin/networks/ports/views.py:53
+#: dashboards/project/networks/subnets/views.py:50
+msgid "Unable to retrieve network."
+msgstr "无法检索网络"
+
+#: dashboards/admin/networks/subnets/tables.py:32
+#: dashboards/project/loadbalancers/tables.py:114
+#: dashboards/project/loadbalancers/workflows.py:38
+#: dashboards/project/networks/subnets/tables.py:44
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:6
+#: dashboards/project/routers/ports/forms.py:31
+msgid "Subnet"
+msgstr "子网"
+
+#: dashboards/admin/networks/subnets/tables.py:33
+#: dashboards/admin/networks/subnets/tables.py:81
+#: dashboards/project/networks/subnets/tables.py:45
+#: dashboards/project/networks/subnets/tables.py:104
+msgid "Subnets"
+msgstr "子网"
+
+#: dashboards/admin/networks/subnets/tables.py:49
+#: dashboards/admin/networks/templates/networks/subnets/create.html:3
+#: dashboards/admin/networks/templates/networks/subnets/create.html:6
+#: dashboards/project/networks/workflows.py:58
+#: dashboards/project/networks/subnets/tables.py:61
+#: dashboards/project/networks/subnets/workflows.py:60
+#: dashboards/project/networks/templates/networks/subnets/create.html:3
+#: dashboards/project/networks/templates/networks/subnets/create.html:6
+msgid "Create Subnet"
+msgstr "创建子网"
+
+#: dashboards/admin/networks/subnets/tables.py:60
+#: dashboards/project/networks/subnets/tables.py:72
+msgid "Edit Subnet"
+msgstr "编辑子网"
+
+#: dashboards/admin/networks/subnets/tables.py:72
+#: dashboards/project/access_and_security/security_groups/forms.py:133
+#: dashboards/project/access_and_security/security_groups/forms.py:145
+#: dashboards/project/access_and_security/security_groups/forms.py:155
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:18
+msgid "CIDR"
+msgstr ""
+
+#: dashboards/admin/networks/subnets/tables.py:73
+#: dashboards/project/networks/workflows.py:73
+#: dashboards/project/networks/subnets/tables.py:85
+#: dashboards/project/networks/subnets/workflows.py:106
+msgid "IP Version"
+msgstr "IP版本"
+
+#: dashboards/admin/networks/subnets/tables.py:74
+#: dashboards/project/networks/subnets/tables.py:86
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:29
+msgid "Gateway IP"
+msgstr "网关IP"
+
+#: dashboards/admin/networks/subnets/workflows.py:48
+#, python-format
+msgid "Failed to retrieve network %s for a subnet"
+msgstr "未能检索网络 %s 的子网"
+
+#: dashboards/admin/networks/templates/networks/_create.html:18
+#: dashboards/project/networks/templates/networks/_create.html:17
+msgid "Select a name for your network."
+msgstr "为你的网络选择一个名称"
+
+#: dashboards/admin/networks/templates/networks/_update.html:17
+#: dashboards/project/networks/templates/networks/_update.html:17
+msgid "You may update the editable properties of your network here."
+msgstr "你可以在这里更新你的网络可编辑属性"
+
+#: dashboards/admin/networks/templates/networks/_update.html:22
+#: dashboards/admin/networks/templates/networks/ports/_update.html:27
+#: dashboards/project/networks/templates/networks/_update.html:22
+#: dashboards/project/networks/templates/networks/ports/_update.html:27
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: dashboards/admin/networks/templates/networks/update.html:3
+#: dashboards/admin/networks/templates/networks/update.html:6
+#: dashboards/project/networks/templates/networks/update.html:3
+#: dashboards/project/networks/templates/networks/update.html:6
+msgid "Update Network"
+msgstr "更新网络"
+
+#: dashboards/admin/networks/templates/networks/ports/_create.html:18
+msgid ""
+"You can create a port for the network. If you specify device ID to be "
+"attached, the device specified will be attached to the port created."
+msgstr ""
+"你可以创建一个网络端口。如果你指定设备ID已连接"
+",它将被连接到该端口创建指定的设备。"
+
+#: dashboards/admin/networks/templates/networks/ports/_update.html:22
+#: dashboards/project/networks/templates/networks/ports/_update.html:22
+msgid "You may update the editable properties of your port here."
+msgstr "你可以更新你的端口的可编辑的属性。"
+
+#: dashboards/admin/networks/templates/networks/ports/update.html:3
+#: dashboards/admin/networks/templates/networks/ports/update.html:6
+#: dashboards/project/networks/templates/networks/ports/update.html:3
+#: dashboards/project/networks/templates/networks/ports/update.html:6
+msgid "Update Port"
+msgstr "更新端口"
+
+#: dashboards/admin/networks/templates/networks/subnets/index.html:3
+#: dashboards/admin/networks/templates/networks/subnets/index.html:6
+#: dashboards/project/networks/templates/networks/detail.html:3
+msgid "Network Detail"
+msgstr "网络细节"
+
+#: dashboards/admin/networks/templates/networks/subnets/update.html:3
+#: dashboards/admin/networks/templates/networks/subnets/update.html:6
+#: dashboards/project/networks/subnets/workflows.py:154
+#: dashboards/project/networks/templates/networks/subnets/update.html:3
+#: dashboards/project/networks/templates/networks/subnets/update.html:6
+msgid "Update Subnet"
+msgstr "更新子网"
+
+#: dashboards/admin/overview/templates/overview/usage.html:3
+msgid "Usage Overview"
+msgstr "使用概览"
+
+#: dashboards/admin/overview/templates/overview/usage.html:12
+msgid "Monitoring"
+msgstr "监控"
+
+#: dashboards/admin/projects/panel.py:29
+#: dashboards/admin/projects/tables.py:72
+#: dashboards/admin/projects/tables.py:104
+#: dashboards/admin/projects/templates/projects/index.html:3
+#: dashboards/admin/projects/templates/projects/index.html:6
+#: templates/403.html:24 templates/404.html:23
+msgid "Projects"
+msgstr "项目"
+
+
+
+#: dashboards/admin/projects/tables.py:19
+msgid "Modify Users"
+msgstr "更改用户"
+
+#: dashboards/admin/projects/tables.py:32
+msgid "View Usage"
+msgstr "查看使用"
+
+#: dashboards/admin/projects/tables.py:39
+#: dashboards/admin/projects/workflows.py:201
+#: dashboards/admin/projects/workflows.py:202
+#: dashboards/admin/projects/templates/projects/_create.html:8
+#: dashboards/admin/projects/templates/projects/_create.html:23
+#: dashboards/admin/projects/templates/projects/create.html:3
+#: dashboards/admin/projects/templates/projects/create.html:6
+msgid "Create Project"
+msgstr "新建项目"
+
+#: dashboards/admin/projects/tables.py:49
+#: dashboards/admin/projects/workflows.py:293
+#: dashboards/admin/projects/templates/projects/update.html:3
+#: dashboards/admin/projects/templates/projects/update.html:6
+msgid "Edit Project"
+msgstr "更新项目"
+
+#: dashboards/admin/projects/tables.py:99
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:11
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:60
+#: dashboards/project/networks/templates/networks/_detail_overview.html:11
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:16
+msgid "Project ID"
+msgstr "项目ID"
+
+#: dashboards/admin/projects/tables.py:113
+msgid "Remove"
+msgstr "移除"
+
+#: dashboards/admin/projects/tables.py:114
+msgid "Removed"
+msgstr "移除"
+
+#: dashboards/admin/projects/tables.py:115 dashboards/admin/users/tables.py:42
+#: dashboards/admin/users/tables.py:79
+#: dashboards/project/instances/workflows/create_instance.py:42
+msgid "User"
+msgstr "用户"
+
+#: dashboards/admin/projects/tables.py:116 dashboards/admin/users/panel.py:29
+#: dashboards/admin/users/tables.py:43 dashboards/admin/users/tables.py:80
+#: dashboards/admin/users/tables.py:120
+#: dashboards/admin/users/templates/users/index.html:3
+#: dashboards/admin/users/templates/users/index.html:6
+msgid "Users"
+msgstr "用户"
+
+#: dashboards/admin/projects/tables.py:134
+msgid "Unable to retrieve role information."
+msgstr "无法检索角色信息"
+
+#: dashboards/admin/projects/tables.py:139
+msgid "Roles"
+msgstr "角色"
+
+#: dashboards/admin/projects/tables.py:143
+msgid "Users For Project"
+msgstr "项目用户"
+
+#: dashboards/admin/projects/tables.py:151
+msgid "Add To Project"
+msgstr "加入项目"
+
+#: dashboards/admin/projects/tables.py:163
+msgid "Add New Users"
+msgstr "添加新用户"
+
+#: dashboards/admin/projects/views.py:70
+msgid "Unable to retrieve project information."
+msgstr "无法检索项目信息"
+
+#: dashboards/admin/projects/views.py:90
+msgid "Unable to retrieve project list."
+msgstr "无法检索项目列表"
+
+#: dashboards/admin/projects/views.py:113
+msgid "Unable to retrieve users."
+msgstr "无法检索用户"
+
+#: dashboards/admin/projects/views.py:156
+msgid "Unable to retrieve default quota values."
+msgstr "无法检索默认配额值"
+
+#: dashboards/admin/projects/views.py:185
+msgid "Unable to retrieve project details."
+msgstr "无法检索项目细节"
+
+#: dashboards/admin/projects/workflows.py:41
+msgid "Injected File Content Bytes"
+msgstr "注入文件内容"
+
+#: dashboards/admin/projects/workflows.py:43
+msgid "Metadata Items"
+msgstr "元数据项"
+
+#: dashboards/admin/projects/workflows.py:47
+msgid "Injected Files"
+msgstr "注入文件"
+
+#: dashboards/admin/projects/workflows.py:50
+#: dashboards/admin/volumes/panel.py:9 dashboards/admin/volumes/tables.py:33
+#: dashboards/admin/volumes/templates/volumes/index.html:3
+#: dashboards/admin/volumes/templates/volumes/index.html:6
+#: dashboards/project/volumes/panel.py:25
+#: dashboards/project/volumes/tables.py:39
+#: dashboards/project/volumes/tables.py:182
+#: dashboards/project/volumes/tables.py:194
+#: dashboards/project/volumes/templates/volumes/index.html:3
+#: dashboards/project/volumes/templates/volumes/index.html:6
+msgid "Volumes"
+msgstr "云硬盘"
+
+#: dashboards/admin/projects/workflows.py:51
+msgid "Gigabytes"
+msgstr ""
+
+#: dashboards/admin/projects/workflows.py:52
+msgid "RAM (MB)"
+msgstr ""
+
+#: dashboards/admin/projects/workflows.py:53
+#: dashboards/project/access_and_security/tabs.py:72
+#: dashboards/project/access_and_security/floating_ips/tables.py:52
+#: dashboards/project/access_and_security/floating_ips/tables.py:131
+msgid "Floating IPs"
+msgstr "动态IP"
+
+#: dashboards/admin/projects/workflows.py:55
+#: dashboards/project/access_and_security/tabs.py:40
+#: dashboards/project/access_and_security/security_groups/tables.py:32
+#: dashboards/project/access_and_security/security_groups/tables.py:66
+#: dashboards/project/instances/templates/instances/_detail_overview.html:53
+#: dashboards/project/instances/workflows/create_instance.py:344
+#: dashboards/project/instances/workflows/update_instance.py:111
+msgid "Security Groups"
+msgstr "安全组"
+
+#: dashboards/admin/projects/workflows.py:57
+#: dashboards/project/access_and_security/security_groups/tables.py:119
+msgid "Security Group Rules"
+msgstr "安全组规则"
+
+#: dashboards/admin/projects/workflows.py:60
+msgid "Quota"
+msgstr "配额"
+
+#: dashboards/admin/projects/workflows.py:62
+msgid "From here you can set quotas (max limits) for the project."
+msgstr "从这里你可以设置项目配额(最大限制)"
+
+#: dashboards/admin/projects/workflows.py:93
+#: dashboards/admin/projects/workflows.py:278
+msgid "Project Info"
+msgstr "项目信息"
+
+#: dashboards/admin/projects/workflows.py:94
+#: dashboards/admin/projects/templates/projects/_create.html:18
+msgid "From here you can create a new project to organize users."
+msgstr "从这里您可以创建一个新项目来组织用户"
+
+#: dashboards/admin/projects/workflows.py:113
+msgid "Unable to retrieve user list. Please try again later."
+msgstr "不能检索用户列表。请稍后再试"
+
+#: dashboards/admin/projects/workflows.py:125
+#, python-format
+msgid "Could not find default role \"%s\" in Keystone"
+msgstr "Keystone中没有默认用户 \"%s\""
+
+#: dashboards/admin/projects/workflows.py:173
+#: dashboards/admin/projects/workflows.py:180
+#: dashboards/admin/projects/templates/projects/_update_members.html:16
+msgid "Project Members"
+msgstr "项目成员"
+
+#: dashboards/admin/projects/workflows.py:179
+#: dashboards/admin/projects/templates/projects/_update_members.html:10
+msgid "All Users"
+msgstr "所有用户"
+
+#: dashboards/admin/projects/workflows.py:181
+#: dashboards/admin/projects/templates/projects/_update_members.html:25
+#: dashboards/admin/projects/templates/projects/_update_members.html:32
+msgid "No users found."
+msgstr "找不到用户"
+
+#: dashboards/admin/projects/workflows.py:182
+msgid "No users."
+msgstr "没有用户"
+
+#: dashboards/admin/projects/workflows.py:190
+#: dashboards/admin/users/views.py:47
+msgid "Unable to retrieve user list."
+msgstr "无法检索用户列表"
+
+#: dashboards/admin/projects/workflows.py:203
+#, python-format
+msgid "Created new project \"%s\"."
+msgstr "建立新项目 \"%s\"."
+
+#: dashboards/admin/projects/workflows.py:204
+#, python-format
+msgid "Unable to create project \"%s\"."
+msgstr "不能建立新项目 \"%s\"."
+
+#: dashboards/admin/projects/workflows.py:248
+#, python-format
+msgid "Failed to add %s project members and set project quotas."
+msgstr "加入项目成员 %s 和设置项目配额失败"
+
+#: dashboards/admin/projects/workflows.py:270
+msgid "Unable to set project quotas."
+msgstr "不能设置项目配额"
+
+#: dashboards/admin/projects/workflows.py:280
+msgid "From here you can edit the project details."
+msgstr "这里你可以编辑项目细节"
+
+#: dashboards/admin/projects/workflows.py:295
+#, python-format
+msgid "Modified project \"%s\"."
+msgstr "修改项目\"%s\"."
+
+#: dashboards/admin/projects/workflows.py:296
+#, python-format
+msgid "Unable to modify project \"%s\"."
+msgstr "可以更改项目\"%s\"."
+
+#: dashboards/admin/projects/workflows.py:349
+msgid ""
+"You cannot remove the \"admin\" role from the project you are currently "
+"logged into. Please switch to another project with admin permissions or "
+"remove the role manually via the CLI"
+msgstr ""
+"你不能删除\"admin \"角色从当前项目"
+"已登录。请切换到管理员权限或者"
+"通过CLI手动删除角色"
+
+#: dashboards/admin/projects/workflows.py:381
+#, python-format
+msgid "Failed to modify %s project members and update project quotas."
+msgstr "修改项目 %s 成员更新项目配额失败"
+
+#: dashboards/admin/projects/workflows.py:414
+msgid ""
+"Modified project information and members, but unable to modify project "
+"quotas."
+msgstr ""
+"修改项目信息和成员,但无法修改项目"
+"配额"
+
+#: dashboards/admin/projects/templates/projects/_add_user.html:8
+#: dashboards/admin/projects/templates/projects/add_user.html:3
+#: dashboards/admin/projects/templates/projects/add_user.html:6
+msgid "Add User To Project"
+msgstr "添加用户到项目"
+
+#: dashboards/admin/projects/templates/projects/_add_user.html:18
+msgid "Select the user role for the project."
+msgstr "从项目中选择用户角色"
+
+#: dashboards/admin/projects/templates/projects/_add_user.html:23
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:26
+#: dashboards/project/loadbalancers/workflows.py:97
+#: dashboards/project/loadbalancers/workflows.py:194
+#: dashboards/project/loadbalancers/workflows.py:326
+#: dashboards/project/loadbalancers/workflows.py:430
+msgid "Add"
+msgstr "添加"
+
+#: dashboards/admin/projects/templates/projects/_create_user.html:7
+#, python-format
+msgid "Create User for project '%(tenant_name)s'."
+msgstr "为项目'%(tenant_name)s'添加用户。"
+
+#: dashboards/admin/projects/templates/projects/_create_user.html:18
+msgid "From here you can create a new user to add to this project."
+msgstr "你可以创建一个新用户添加到项目中"
+
+#: dashboards/admin/projects/templates/projects/_create_user.html:23
+#: dashboards/admin/users/tables.py:20
+#: dashboards/admin/users/templates/users/_create.html:7
+#: dashboards/admin/users/templates/users/_create.html:32
+#: dashboards/admin/users/templates/users/create.html:3
+#: dashboards/admin/users/templates/users/create.html:7
+msgid "Create User"
+msgstr "添加用户"
+
+#: dashboards/admin/projects/templates/projects/_quotas.html:7
+#: dashboards/admin/projects/templates/projects/_quotas.html:22
+msgid "Update Quota"
+msgstr "更改配额"
+
+#: dashboards/admin/projects/templates/projects/_quotas.html:17
+#, python-format
+msgid ""
+"From here you can edit quotas (max limits) for the project %(tenant.name)s."
+msgstr ""
+"这里你可以编辑项目 %(tenant.name)s 配额(最大限制)."
+
+#: dashboards/admin/projects/templates/projects/_update.html:8
+#: dashboards/admin/projects/templates/projects/_update.html:23
+#: dashboards/admin/projects/templates/projects/quotas.html:6
+msgid "Update Project"
+msgstr "更新项目"
+
+#: dashboards/admin/projects/templates/projects/_update.html:18
+msgid "From here you can edit a project."
+msgstr "编辑项目"
+
+#: dashboards/admin/projects/templates/projects/_update_members.html:7
+msgid ""
+"From here you can add and remove members to this project from the list of "
+"all available users."
+msgstr ""
+
+#: dashboards/admin/projects/templates/projects/create_user.html:3
+#: dashboards/admin/projects/templates/projects/create_user.html:6
+msgid "Add New User"
+msgstr "添加新用户"
+
+#: dashboards/admin/projects/templates/projects/quotas.html:3
+msgid "Modify Project Quotas"
+msgstr "修改项目配额"
+
+#: dashboards/admin/projects/templates/projects/usage.html:3
+msgid "Project Usage Overview"
+msgstr "项目使用概览"
+
+#: dashboards/admin/projects/templates/projects/usage.html:7
+msgid "Project Usage"
+msgstr "项目使用"
+
+#: dashboards/admin/projects/templates/projects/users.html:3
+msgid "Project Users"
+msgstr "项目用户"
+
+#: dashboards/admin/projects/templates/projects/users.html:7
+msgid "Users for Project"
+msgstr "项目用户"
+
+#: dashboards/admin/routers/forms.py:35 dashboards/project/routers/forms.py:23
+#: dashboards/project/routers/ports/forms.py:32
+#: dashboards/project/routers/ports/forms.py:91
+msgid "Router Name"
+msgstr "路由名称"
+
+#: dashboards/admin/routers/forms.py:48
+msgid "Failed to get tenants."
+msgstr "未能获得租户"
+
+#: dashboards/admin/routers/forms.py:67 dashboards/project/routers/forms.py:37
+#, python-format
+msgid "Failed to create router \"%s\"."
+msgstr "无法创建路由 \"%s\"."
+
+#: dashboards/admin/routers/tables.py:39
+#: dashboards/admin/routers/templates/routers/create.html:3
+#: dashboards/project/network_topology/templates/network_topology/index.html:28
+#: dashboards/project/routers/tables.py:59
+#: dashboards/project/routers/templates/routers/create.html:3
+msgid "Create Router"
+msgstr "创建路由"
+
+#: dashboards/project/routers/panel.py:25
+#: dashboards/admin/routers/templates/routers/index.html:3
+#: dashboards/admin/routers/templates/routers/index.html:6
+#: dashboards/admin/routers/tables.py:71
+#: dashboards/project/routers/tables.py:34
+#: dashboards/project/routers/tables.py:137
+#: dashboards/project/routers/templates/routers/index.html:3
+#: dashboards/project/routers/templates/routers/index.html:6
+msgid "Routers"
+msgstr "路由器"
+
+#: dashboards/admin/routers/views.py:51 dashboards/project/routers/views.py:55
+msgid "Unable to retrieve router list."
+msgstr "无法检索路由列表"
+
+#: dashboards/admin/routers/ports/tables.py:49
+#: dashboards/project/access_and_security/security_groups/forms.py:112
+#: dashboards/project/access_and_security/security_groups/forms.py:119
+#: dashboards/project/images_and_snapshots/images/tables.py:173
+#: dashboards/project/loadbalancers/workflows.py:365
+#: dashboards/project/routers/ports/tables.py:81
+#: dashboards/project/volumes/forms.py:31
+#: dashboards/project/volumes/tables.py:175
+msgid "Type"
+msgstr "类型"
+
+#: dashboards/admin/routers/ports/tables.py:58
+#: dashboards/project/routers/ports/tables.py:51
+#: dashboards/project/routers/ports/tables.py:90
+msgid "Interfaces"
+msgstr "接口"
+
+#: dashboards/admin/routers/templates/routers/_create.html:8
+#: dashboards/admin/routers/templates/routers/_create.html:19
+#: dashboards/project/routers/templates/routers/_create.html:8
+#: dashboards/project/routers/templates/routers/_create.html:19
+msgid "Create router"
+msgstr "创建路由"
+
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:3
+#: dashboards/project/routers/templates/routers/_detail_overview.html:3
+msgid "Router Overview"
+msgstr "路由概览"
+
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:16
+#: dashboards/project/routers/templates/routers/_detail_overview.html:14
+msgid "External Gateway Information"
+msgstr "外网关信息"
+
+#: dashboards/admin/routers/templates/routers/_detail_overview.html:17
+#: dashboards/project/routers/templates/routers/_detail_overview.html:15
+msgid "Connected External Network"
+msgstr "连接外网"
+
+#: dashboards/admin/routers/templates/routers/create.html:6
+#: dashboards/project/routers/templates/routers/create.html:6
+msgid "Create a Router"
+msgstr "创建路由"
+
+#: dashboards/admin/routers/templates/routers/detail.html:3
+#: dashboards/project/routers/templates/routers/detail.html:3
+msgid "Router Details"
+msgstr "路由细节"
+
+#: dashboards/admin/routers/templates/routers/detail.html:6
+#: dashboards/project/routers/templates/routers/detail.html:6
+msgid "Router Detail"
+msgstr "路由细节"
+
+#: dashboards/admin/routers/templates/routers/ports/_create.html:8
+#: dashboards/admin/routers/templates/routers/ports/create.html:3
+#: dashboards/admin/routers/templates/routers/ports/create.html:6
+#: dashboards/project/routers/ports/tables.py:40
+#: dashboards/project/routers/templates/routers/ports/_create.html:8
+#: dashboards/project/routers/templates/routers/ports/create.html:3
+#: dashboards/project/routers/templates/routers/ports/create.html:6
+msgid "Add Interface"
+msgstr "添加接口"
+
+#: dashboards/admin/routers/templates/routers/ports/_create.html:18
+#: dashboards/project/routers/templates/routers/ports/_create.html:18
+msgid "You can connect a specified subnet to the router."
+msgstr "你可以连接指定的子网到路由器"
+
+#: dashboards/admin/routers/templates/routers/ports/_create.html:23
+#: dashboards/project/routers/templates/routers/ports/_create.html:23
+msgid "Add interface"
+msgstr "添加接口"
+
+#: dashboards/admin/routers/templates/routers/ports/_setgateway.html:8
+#: dashboards/admin/routers/templates/routers/ports/_setgateway.html:23
+#: dashboards/admin/routers/templates/routers/ports/setgateway.html:3
+#: dashboards/admin/routers/templates/routers/ports/setgateway.html:6
+#: dashboards/project/routers/tables.py:66
+#: dashboards/project/routers/templates/routers/ports/_setgateway.html:8
+#: dashboards/project/routers/templates/routers/ports/_setgateway.html:23
+#: dashboards/project/routers/templates/routers/ports/setgateway.html:3
+#: dashboards/project/routers/templates/routers/ports/setgateway.html:6
+msgid "Set Gateway"
+msgstr "设置网关"
+
+#: dashboards/admin/routers/templates/routers/ports/_setgateway.html:18
+#: dashboards/project/routers/templates/routers/ports/_setgateway.html:18
+msgid ""
+"You can connect a specified external network to the router. The external "
+"network is regarded as a default route of the router and the router acts as "
+"a gateway for external connectivity."
+msgstr ""
+"你可以指定的外部网络连接到路由器。外部"
+"网络被视为默认路由的路由器和路由器充当"
+"外部网关连接。"
+
+#: dashboards/admin/users/forms.py:54
+msgid "Passwords do not match."
+msgstr "密码不匹配"
+
+#: dashboards/admin/users/forms.py:62 dashboards/admin/users/forms.py:115
+#: dashboards/admin/users/tables.py:106
+msgid "User Name"
+msgstr "用户姓名"
+
+#: dashboards/admin/users/forms.py:63 dashboards/admin/users/forms.py:116
+#: dashboards/admin/users/tables.py:107
+msgid "Email"
+msgstr "邮箱"
+
+#: dashboards/admin/users/forms.py:65 dashboards/admin/users/forms.py:117
+msgid "Password"
+msgstr "密码"
+
+#: dashboards/admin/users/forms.py:70 dashboards/admin/users/forms.py:124
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: dashboards/admin/users/forms.py:73 dashboards/admin/users/forms.py:127
+msgid "Primary Project"
+msgstr "主项目"
+
+#: dashboards/admin/users/forms.py:75
+msgid "Role"
+msgstr "角色"
+
+#: dashboards/admin/users/forms.py:96
+#, python-format
+msgid "User \"%s\" was successfully created."
+msgstr "用户 \"%s\"  创建成功"
+
+#: dashboards/admin/users/forms.py:106
+msgid "Unable to add userto primary project."
+msgstr "无法添加用户到主项目"
+
+#: dashboards/admin/users/forms.py:110
+msgid "Unable to create user."
+msgstr "不能创建用户"
+
+#: dashboards/admin/users/forms.py:151
+msgid "name"
+msgstr "姓名"
+
+#: dashboards/admin/users/forms.py:151
+msgid "email"
+msgstr "邮箱"
+
+#: dashboards/admin/users/forms.py:160
+msgid "primary project"
+msgstr "主项目"
+
+#: dashboards/admin/users/forms.py:173
+#, python-format
+msgid "The user %s has no role defined for"
+msgstr "用户 %s 没有定义角色"
+
+#: dashboards/admin/users/forms.py:181
+msgid "password"
+msgstr "密码"
+
+#: dashboards/admin/users/forms.py:190
+msgid "User has been updated successfully."
+msgstr "用户更新成功"
+
+#: dashboards/admin/users/forms.py:194
+#, python-format
+msgid "Unable to update %(attributes)s for the user."
+msgstr "不能更新用户  %(attributes)s"
+
+#: dashboards/admin/users/tables.py:40
+msgid "Enable"
+msgstr "启用"
+
+#: dashboards/admin/users/tables.py:40
+msgid "Disable"
+msgstr "禁用"
+
+#: dashboards/admin/users/tables.py:41
+msgid "Disabled"
+msgstr "禁用"
+
+#: dashboards/admin/users/tables.py:67
+msgid "You cannot disable the user you are currently logged in as."
+msgstr "你可以禁用你当前的登录用户"
+
+#: dashboards/admin/users/tables.py:112
+msgid "User ID"
+msgstr "用户ID"
+
+#: dashboards/admin/users/views.py:70
+msgid "Unable to update user."
+msgstr "不能更新用户"
+
+#: dashboards/admin/users/views.py:104
+msgid "Unable to retrieve user roles."
+msgstr "无法检索用户列表"
+
+#: dashboards/admin/users/templates/users/_create.html:17
+msgid "From here you can create a new user and assign them to a project."
+msgstr "从这里您可以创建一个新的用户,并将它们分配给一个项目"
+
+#: dashboards/admin/users/templates/users/_update.html:7
+#: dashboards/admin/users/templates/users/_update.html:32
+#: dashboards/admin/users/templates/users/update.html:3
+#: dashboards/admin/users/templates/users/update.html:7
+msgid "Update User"
+msgstr "更新用户"
+
+#: dashboards/admin/users/templates/users/_update.html:17
+msgid ""
+"From here you can edit the user's details, including their default project."
+msgstr "你可以编辑用户细节，包括他们的默认项目"
+
+#: dashboards/admin/volumes/forms.py:38
+#, python-format
+msgid "Successfully created volume type: %s"
+msgstr "创建卷类型： %s 成功"
+
+#: dashboards/admin/volumes/forms.py:43
+msgid "Unable to create volume type."
+msgstr "不能创建卷类型"
+
+#: dashboards/admin/volumes/tables.py:11
+#: dashboards/admin/volumes/templates/volumes/_create_volume_type.html:8
+#: dashboards/admin/volumes/templates/volumes/_create_volume_type.html:27
+#: dashboards/admin/volumes/templates/volumes/create_volume_type.html:3
+msgid "Create Volume Type"
+msgstr "创建卷类型"
+
+#: dashboards/admin/volumes/tables.py:17
+msgid "Volume Type"
+msgstr "卷类型"
+
+#: dashboards/admin/volumes/tables.py:18 dashboards/admin/volumes/tables.py:54
+msgid "Volume Types"
+msgstr "卷类型"
+
+#: dashboards/admin/volumes/views.py:51
+msgid "Unable to retrieve volume tenant information."
+msgstr "不能检索卷租户信息"
+
+#: dashboards/admin/volumes/views.py:68
+msgid "Unable to retrieve volume types"
+msgstr "不能检索卷类型"
+
+#: dashboards/admin/volumes/templates/volumes/_create_volume_type.html:18
+msgid ""
+"\n"
+"    The volume type defines the characteristics of a volume.\n"
+"    It usually maps to a set of capabilities of the storage back-end driver to be used for this volume.\n"
+"    Examples: \"Performance\", \"SSD\", \"Backup\", etc.\n"
+"    "
+msgstr ""
+
+#: dashboards/admin/volumes/templates/volumes/create_volume_type.html:6
+msgid "Create a Volume Type"
+msgstr "创建卷类型"
+
+#: dashboards/admin/volumes/templates/volumes/detail.html:3
+#: dashboards/project/volumes/templates/volumes/detail.html:3
+msgid "Volume Details"
+msgstr "卷细节"
+
+#: dashboards/admin/volumes/templates/volumes/detail.html:6
+#: dashboards/project/volumes/templates/volumes/detail.html:6
+msgid "Volume Detail"
+msgstr "卷细节"
+
+#: dashboards/project/dashboard.py:24
+msgid "Manage Compute"
+msgstr "计算管理"
+
+#: dashboards/project/dashboard.py:38
+msgid "Object Store"
+msgstr "存储对象"
+
+#: dashboards/project/access_and_security/panel.py:26
+#: dashboards/project/instances/workflows/create_instance.py:352
+msgid "Access & Security"
+msgstr "使用&安全"
+
+#: dashboards/project/access_and_security/tabs.py:50
+#: dashboards/project/access_and_security/security_groups/views.py:85
+msgid "Unable to retrieve security groups."
+msgstr "无法检索安全组"
+
+#: dashboards/project/access_and_security/tabs.py:56
+#: dashboards/project/access_and_security/keypairs/tables.py:31
+#: dashboards/project/access_and_security/keypairs/tables.py:60
+msgid "Keypairs"
+msgstr "密钥对"
+
+#: dashboards/project/access_and_security/tabs.py:66
+msgid "Unable to retrieve keypair list."
+msgstr "无法检索密钥列表"
+
+#: dashboards/project/access_and_security/tabs.py:82
+#: dashboards/project/access_and_security/floating_ips/workflows.py:70
+msgid "Unable to retrieve floating IP addresses."
+msgstr "无法检索动态IP地址"
+
+#: dashboards/project/access_and_security/tabs.py:89
+#: dashboards/project/access_and_security/floating_ips/views.py:66
+msgid "Unable to retrieve floating IP pools."
+msgstr "无法检索动态IP池"
+
+#: dashboards/project/access_and_security/tabs.py:111
+msgid "API Access"
+msgstr "使用API"
+
+#: dashboards/project/access_and_security/api_access/tables.py:38
+#: dashboards/project/access_and_security/api_access/tables.py:39
+msgid "Download EC2 Credentials"
+msgstr "下载EC2凭证"
+
+#: dashboards/project/access_and_security/api_access/tables.py:46
+#: dashboards/project/access_and_security/api_access/tables.py:47
+msgid "Download OpenStack RC File"
+msgstr "下载 OpenStack RC文件"
+
+#: dashboards/project/access_and_security/api_access/tables.py:57
+msgid "Service Endpoint"
+msgstr "服务断点"
+
+#: dashboards/project/access_and_security/api_access/tables.py:61
+msgid "API Endpoints"
+msgstr "API端点"
+
+#: dashboards/project/access_and_security/api_access/views.py:57
+msgid "Unable to fetch EC2 credentials."
+msgstr "无法获取EC2凭证"
+
+#: dashboards/project/access_and_security/api_access/views.py:93
+#, python-format
+msgid "Error writing zipfile: %(exc)s"
+msgstr "写入zip文件: %(exc)s错误"
+
+#: dashboards/project/access_and_security/api_access/views.py:134
+#, python-format
+msgid "Error Downloading RC File: %s"
+msgstr "下载RC文件: %s错误"
+
+#: dashboards/project/access_and_security/floating_ips/forms.py:32
+#: dashboards/project/loadbalancers/tables.py:84
+#: dashboards/project/loadbalancers/tables.py:143
+#: dashboards/project/loadbalancers/workflows.py:249
+#: dashboards/project/loadbalancers/workflows.py:364
+msgid "Pool"
+msgstr "Pool"
+
+#: dashboards/project/access_and_security/floating_ips/forms.py:44
+#, python-format
+msgid "Allocated Floating IP %(ip)s."
+msgstr "分配动态IP %(ip)s."
+
+#: dashboards/project/access_and_security/floating_ips/forms.py:48
+msgid "Unable to allocate Floating IP."
+msgstr "不能分配动态IP"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:39
+msgid "Allocate IP To Project"
+msgstr "分配IP到项目"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:49
+msgid "Release"
+msgstr "释放"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:50
+msgid "Released"
+msgstr "释放"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:51
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:22
+msgid "Floating IP"
+msgstr "动态IP"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:61
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/associate.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/associate.html:6
+#: dashboards/project/instances/tables.py:299
+#: dashboards/project/instances/tables.py:320
+msgid "Associate Floating IP"
+msgstr "关联动态IP"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:78
+#: dashboards/project/instances/tables.py:344
+msgid "Disassociate Floating IP"
+msgstr "取消动态IP关联"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:93
+#, python-format
+msgid "Successfully disassociated Floating IP: %s"
+msgstr "成功取消动态IP关联: %s"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:97
+#: dashboards/project/instances/tables.py:370
+msgid "Unable to disassociate floating IP."
+msgstr "不能取消动态IP关联"
+
+#: dashboards/project/access_and_security/floating_ips/tables.py:120
+msgid "Floating IP Pool"
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/views.py:69
+msgid "No floating IP pools available."
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:42
+msgid ""
+"Select the IP address you wish to associate with the selected instance."
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:48
+msgid "Port to be associated"
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:50
+msgid "Instance to be associated"
+msgstr "连接实例"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:74
+msgid "Select an IP address"
+msgstr "选择IP地址"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:76
+msgid "No IP addresses available"
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:98
+msgid "Select a port"
+msgstr "选择一个端口"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:100
+#: dashboards/project/volumes/forms.py:204
+msgid "Select an instance"
+msgstr "选择一个实例"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:104
+msgid "No ports available"
+msgstr "没有可用的端口"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:106
+#: dashboards/project/volumes/forms.py:206
+msgid "No instances available"
+msgstr "没有可用的实例"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:126
+msgid "Manage Floating IP Associations"
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:127
+msgid "Associate"
+msgstr "连接"
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:128
+#, python-format
+msgid "IP address %s associated."
+msgstr ""
+
+#: dashboards/project/access_and_security/floating_ips/workflows.py:129
+#, python-format
+msgid "Unable to associate IP address %s."
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/forms.py:38
+#: dashboards/project/access_and_security/keypairs/forms.py:49
+#: dashboards/project/access_and_security/keypairs/tables.py:52
+msgid "Keypair Name"
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/forms.py:40
+msgid ""
+"Keypair names may only contain letters, numbers, underscores and hyphens."
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/forms.py:51
+msgid "Public Key"
+msgstr "公钥"
+
+#: dashboards/project/access_and_security/keypairs/forms.py:60
+#, python-format
+msgid "Successfully imported public key: %s"
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/forms.py:65
+msgid "Unable to import keypair."
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/tables.py:30
+#: dashboards/project/instances/tables.py:451
+#: dashboards/project/instances/workflows/create_instance.py:339
+msgid "Keypair"
+msgstr "密钥对"
+
+#: dashboards/project/access_and_security/keypairs/tables.py:39
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:7
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:23
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/import.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/import.html:6
+msgid "Import Keypair"
+msgstr "导入密钥对"
+
+#: dashboards/project/access_and_security/keypairs/tables.py:46
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:7
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:23
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/create.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/create.html:6
+msgid "Create Keypair"
+msgstr "新建密钥对"
+
+#: dashboards/project/access_and_security/keypairs/tables.py:53
+msgid "Fingerprint"
+msgstr ""
+
+#: dashboards/project/access_and_security/keypairs/views.py:74
+#, python-format
+msgid "Unable to create keypair: %(exc)s"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:38
+msgid "This field is required."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:39
+msgid "The string may only contain ASCII characters and numbers."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:50
+#, python-format
+msgid "Successfully created security group: %s"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:56
+msgid "Unable to create security group."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:62
+#: dashboards/project/access_and_security/security_groups/tables.py:105
+msgid "IP Protocol"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:63
+msgid "TCP"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:64
+msgid "UDP"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:65
+msgid "ICMP"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:66
+msgid "The protocol which this rule should be applied to."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:72
+#: dashboards/project/access_and_security/security_groups/forms.py:79
+#: dashboards/project/access_and_security/security_groups/forms.py:80
+msgid "Open"
+msgstr "开启"
+
+#: dashboards/project/access_and_security/security_groups/forms.py:74
+msgid "Port Range"
+msgstr "端口范围"
+
+#: dashboards/project/access_and_security/security_groups/forms.py:84
+#: dashboards/project/access_and_security/security_groups/forms.py:94
+#: dashboards/project/access_and_security/security_groups/forms.py:104
+msgid "Enter an integer value between 1 and 65535."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:92
+#: dashboards/project/access_and_security/security_groups/forms.py:99
+#: dashboards/project/access_and_security/security_groups/tables.py:107
+msgid "From Port"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:102
+#: dashboards/project/access_and_security/security_groups/forms.py:109
+#: dashboards/project/access_and_security/security_groups/tables.py:108
+msgid "To Port"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:114
+msgid "Enter a value for ICMP type in the range (-1: 255)"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:122
+#: dashboards/project/access_and_security/security_groups/forms.py:129
+msgid "Code"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:124
+msgid "Enter a value for ICMP code in the range (-1: 255)"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:132
+#: dashboards/project/access_and_security/security_groups/tables.py:109
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:21
+msgid "Source"
+msgstr "资源"
+
+#: dashboards/project/access_and_security/security_groups/forms.py:134
+#: dashboards/project/access_and_security/security_groups/forms.py:157
+#: dashboards/project/access_and_security/security_groups/forms.py:162
+#: dashboards/project/access_and_security/security_groups/tables.py:31
+msgid "Security Group"
+msgstr "安全组"
+
+#: dashboards/project/access_and_security/security_groups/forms.py:135
+msgid ""
+"To specify an allowed IP range, select \"CIDR\". To allow access from all "
+"members of another security group select \"Security Group\"."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:148
+msgid "Classless Inter-Domain Routing (e.g. 192.168.0.0/24)"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:173
+msgid "No security groups available"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:192
+msgid "The ICMP type is invalid."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:195
+msgid "The ICMP code is invalid."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:198
+msgid "The ICMP type not in range (-1, 255)"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:201
+msgid "The ICMP code not in range (-1, 255)"
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:210
+msgid "The specified port is invalid."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:214
+msgid "The \"from\" port number is invalid."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:217
+msgid "The \"to\" port number is invalid."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:220
+msgid ""
+"The \"to\" port number must be greater than or equal to the \"from\" port "
+"number."
+msgstr ""
+
+#: dashboards/project/access_and_security/security_groups/forms.py:242
+#, python-format
+msgid "Successfully added rule: %s"
+msgstr "成功添加规则: %s"
+
+#: dashboards/project/access_and_security/security_groups/forms.py:248
+msgid "Unable to add rule to security group."
+msgstr "不能添加规则到安全组"
+
+#: dashboards/project/access_and_security/security_groups/tables.py:45
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_create.html:7
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_create.html:23
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/create.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/create.html:6
+msgid "Create Security Group"
+msgstr "新建安全组"
+
+#: dashboards/project/access_and_security/security_groups/tables.py:52
+msgid "Edit Rules"
+msgstr "编辑规则"
+
+#: dashboards/project/access_and_security/security_groups/tables.py:73
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:7
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/add_rule.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/add_rule.html:6
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: dashboards/project/access_and_security/security_groups/tables.py:82
+msgid "Rule"
+msgstr "规则"
+
+#: dashboards/project/access_and_security/security_groups/tables.py:83
+msgid "Rules"
+msgstr "规则"
+
+#: dashboards/project/access_and_security/security_groups/views.py:55
+msgid "Unable to retrieve security group."
+msgstr "没有检索到安全组"
+
+#: dashboards/project/access_and_security/security_groups/views.py:91
+#, python-format
+msgid "%s (current)"
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/index.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/index.html:6
+msgid "Access &amp; Security"
+msgstr "使用 &amp; 安全"
+
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:8
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/allocate.html:3
+msgid "Allocate Floating IP"
+msgstr "分配动态IP"
+
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:18
+msgid "Allocate a floating IP from a given floating ip pool."
+msgstr "从动态IP池中分配动态IP"
+
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:20
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:19
+msgid "Project Quotas"
+msgstr "项目配额"
+
+#: dashboards/project/access_and_security/templates/access_and_security/floating_ips/_allocate.html:31
+msgid "Allocate IP"
+msgstr "动态IP"
+
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:17
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:17
+msgid ""
+"Keypairs are ssh credentials which are injected into images when they are "
+"launched. Creating a new key pair registers the public key and downloads the"
+" private key (a .pem file)."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_create.html:18
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/_import.html:18
+msgid "Protect and use the key as you would any normal ssh private key."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/download.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/download.html:6
+msgid "Download Keypair"
+msgstr "下载密钥对"
+
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/download.html:11
+#, python-format
+msgid ""
+"The keypair &quot;%(keypair_name)s&quot; should download automatically. If "
+"not use the link below."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/keypairs/download.html:15
+#, python-format
+msgid "Download keypair &quot;%(keypair_name)s&quot;"
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:18
+msgid ""
+"Rules define which traffic is allowed to instances assigned to the security "
+"group. A security group rule consists of three main parts:"
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:19
+#: dashboards/project/loadbalancers/tables.py:115
+#: dashboards/project/loadbalancers/workflows.py:39
+#: dashboards/project/loadbalancers/workflows.py:132
+msgid "Protocol"
+msgstr "协议"
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:19
+msgid ""
+"You must specify the desired IP protocol to which this rule will apply; the "
+"options are TCP, UDP, or ICMP."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:20
+msgid "Open Port/Port Range"
+msgstr "开放端口或端口范围"
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:20
+msgid ""
+"For TCP and UDP rules you may choose to open either a single port or a range"
+" of ports. Selecting the \"Port Range\" option will provide you with space "
+"to provide both the starting and ending ports for the range. For ICMP rules "
+"you instead specify an ICMP type and code in the spaces provided."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_add_rule.html:21
+msgid ""
+"You must specify the source of the traffic to be allowed via this rule. You "
+"may do so either in the form of an IP address block (CIDR) or via a source "
+"group (Security Group). Selecting a security group as the source will allow "
+"any other instance in that security group access to any other instance via "
+"this rule."
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/_create.html:18
+msgid "From here you can create a new security group"
+msgstr ""
+
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/detail.html:3
+#: dashboards/project/access_and_security/templates/access_and_security/security_groups/detail.html:6
+msgid "Edit Security Group Rules"
+msgstr ""
+
+#: dashboards/project/containers/browsers.py:26
+msgid "Swift"
+msgstr ""
+
+#: dashboards/project/containers/browsers.py:29
+#: dashboards/project/containers/tables.py:40
+msgid "Container"
+msgstr "共享文件"
+
+#: dashboards/project/containers/forms.py:39
+msgid "Slash is not an allowed character."
+msgstr "Slash不是允许的字符"
+
+#: dashboards/project/containers/forms.py:49
+#: dashboards/project/containers/tables.py:121
+msgid "Container Name"
+msgstr "文件夹名称"
+
+#: dashboards/project/containers/forms.py:57
+msgid "Container created successfully."
+msgstr "文件夹创建成功"
+
+#: dashboards/project/containers/forms.py:68
+msgid "Folder created successfully."
+msgstr ""
+
+#: dashboards/project/containers/forms.py:71
+msgid "Unable to create container."
+msgstr "不能创建文件夹"
+
+#: dashboards/project/containers/forms.py:79
+#: dashboards/project/containers/tables.py:228
+msgid "Object Name"
+msgstr "文件名称"
+
+#: dashboards/project/containers/forms.py:80
+msgid ""
+"Slashes are allowed, and are treated as pseudo-folders by the Object Store."
+msgstr ""
+
+#: dashboards/project/containers/forms.py:83
+msgid "File"
+msgstr "文件"
+
+#: dashboards/project/containers/forms.py:97
+msgid "Object was successfully uploaded."
+msgstr "文件上传成功"
+
+#: dashboards/project/containers/forms.py:100
+msgid "Unable to upload object."
+msgstr "不能上传文件"
+
+#: dashboards/project/containers/forms.py:104
+msgid "Destination container"
+msgstr "定义文件夹"
+
+#: dashboards/project/containers/forms.py:108
+msgid "Destination object name"
+msgstr "定义文件名称"
+
+#: dashboards/project/containers/forms.py:141
+#, python-format
+msgid "Copied \"%(orig)s\" to \"%(dest)s\" as \"%(new)s\"."
+msgstr ""
+
+#: dashboards/project/containers/forms.py:151
+msgid "Unable to copy object."
+msgstr "不能复制文件"
+
+#: dashboards/project/containers/panel.py:29
+#: dashboards/project/containers/tables.py:41
+#: dashboards/project/containers/tables.py:128
+#: dashboards/project/containers/templates/containers/index.html:3
+#: dashboards/project/containers/templates/containers/index.html:7
+msgid "Containers"
+msgstr "共享文件"
+
+#: dashboards/project/containers/tables.py:62
+#: dashboards/project/containers/templates/containers/_create.html:7
+#: dashboards/project/containers/templates/containers/_create.html:22
+#: dashboards/project/containers/templates/containers/create.html:3
+#: dashboards/project/containers/templates/containers/create.html:6
+msgid "Create Container"
+msgstr "创建文件夹"
+
+#: dashboards/project/containers/tables.py:69
+msgid "View Container"
+msgstr "查看文件夹"
+
+#: dashboards/project/containers/tables.py:81
+#: dashboards/project/containers/templates/containers/_upload.html:24
+#: dashboards/project/containers/templates/containers/upload.html:3
+msgid "Upload Object"
+msgstr "上传文件"
+
+#: dashboards/project/containers/tables.py:137
+#: dashboards/project/containers/tables.py:149
+#: dashboards/project/containers/templates/containers/_upload.html:18
+msgid "Object"
+msgstr "文件"
+
+#: dashboards/project/containers/tables.py:138
+#: dashboards/project/containers/tables.py:150
+#: dashboards/project/containers/tables.py:235
+msgid "Objects"
+msgstr "文件"
+
+#: dashboards/project/containers/tables.py:156
+msgid "Copy"
+msgstr "复制"
+
+#: dashboards/project/containers/tables.py:169
+msgid "Download"
+msgstr "下载"
+
+#: dashboards/project/containers/views.py:53
+msgid "Unable to retrieve container list."
+msgstr "不能检索到文件夹列表"
+
+#: dashboards/project/containers/views.py:83
+msgid "Unable to retrieve object list."
+msgstr "不能检索到文件列表"
+
+#: dashboards/project/containers/views.py:168
+msgid "Unable to retrieve object."
+msgstr "不能检索到文件"
+
+#: dashboards/project/containers/views.py:203
+msgid "Unable to list containers."
+msgstr "不能检索到文件夹"
+
+#: dashboards/project/containers/templates/containers/_copy.html:7
+#: dashboards/project/containers/templates/containers/_copy.html:22
+#: dashboards/project/containers/templates/containers/copy.html:3
+#: dashboards/project/containers/templates/containers/copy.html:6
+msgid "Copy Object"
+msgstr "复制文件"
+
+#: dashboards/project/containers/templates/containers/_copy.html:17
+msgid ""
+"Make a new copy of an existing object to store in this or another container."
+" You may also specify a path at which the new copy should live inside of the"
+" selected container."
+msgstr ""
+
+#: dashboards/project/containers/templates/containers/_create.html:17
+msgid ""
+"A container is a storage compartment for your data and provides a way for "
+"you to organize your data. You can think of a container as a folder in "
+"Windows &reg; or a directory in UNIX &reg;. The primary difference between a"
+" container and these other file system concepts is that containers cannot be"
+" nested. You can, however, create an unlimited number of containers within "
+"your account. Data must be stored in a container so you must have at least "
+"one container defined in your account prior to uploading data."
+msgstr ""
+
+#: dashboards/project/containers/templates/containers/_upload.html:8
+msgid "Upload Object To Container"
+msgstr "上传文件到文件夹"
+
+#: dashboards/project/containers/templates/containers/_upload.html:18
+msgid ""
+"An object is the basic storage entity that represents a file you store in "
+"the OpenStack Object Storage system. When you upload data to OpenStack "
+"Object Storage, the data is stored as-is (no compression or encryption) and "
+"consists of a location (container), the object's name, and any metadata "
+"consisting of key/value pairs."
+msgstr ""
+
+#: dashboards/project/containers/templates/containers/_upload.html:19
+msgid "Pseudo-folder"
+msgstr ""
+
+#: dashboards/project/containers/templates/containers/_upload.html:19
+msgid ""
+"Within a container you can group your objects into pseudo-folders, which "
+"behave similarly to folders in your desktop operating system, with the "
+"exception that they are virtual collections defined by a common prefix on "
+"the object's name. A slash (/) character is used as the delimiter for "
+"pseudo-folders in the Object Store."
+msgstr ""
+
+#: dashboards/project/containers/templates/containers/upload.html:6
+msgid "Upload Objects"
+msgstr "上传文件"
+
+#: dashboards/project/images_and_snapshots/panel.py:26
+msgid "Images & Snapshots"
+msgstr "快照"
+
+#: dashboards/project/images_and_snapshots/views.py:64
+msgid "Unable to retrieve images."
+msgstr "不能检索镜像"
+
+#: dashboards/project/images_and_snapshots/views.py:75
+msgid "Unable to retrieve snapshots."
+msgstr "不能检索快照"
+
+#: dashboards/project/images_and_snapshots/views.py:84
+#: dashboards/project/volumes/forms.py:100
+msgid "Unable to retrieve volume snapshots."
+msgstr "不能检索卷镜像"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:45
+msgid "Image Location"
+msgstr "镜像位置"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:46
+msgid "An external (HTTP) URL to load the image from."
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:49
+msgid "Image File"
+msgstr "镜像文件"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:52
+#: dashboards/project/images_and_snapshots/images/forms.py:156
+#: dashboards/project/images_and_snapshots/images/tables.py:184
+msgid "Format"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:56
+msgid "AKI - Amazon Kernel Image"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:59
+msgid "AMI - Amazon Machine Image"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:62
+msgid "ARI - Amazon Ramdisk Image"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:65
+msgid "ISO - Optical Disk Image"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:67
+msgid "QCOW2 - QEMU Emulator"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:74
+msgid "Minimum Disk (GB)"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:75
+#: dashboards/project/images_and_snapshots/images/forms.py:82
+msgid ""
+"The minimum disk size required to boot the image. If unspecified, this value"
+" defaults to 0 (no minimum)."
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:81
+msgid "Minimum Ram (MB)"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:88
+#: dashboards/project/images_and_snapshots/images/forms.py:160
+#: dashboards/project/images_and_snapshots/images/tables.py:181
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:15
+msgid "Public"
+msgstr "公众"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:99
+msgid "A image or external image location must be specified."
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/images/forms.py:102
+msgid "Can not specify both image and external image location."
+msgstr "不能指定镜像和外部镜像的位置"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:132
+#, python-format
+msgid "Your image %s has been queued for creation."
+msgstr "你的镜像  %s 正在队列中"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:136
+msgid "Unable to create new image."
+msgstr "不能创建新镜像"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:142
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:48
+msgid "Kernel ID"
+msgstr "内核ID"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:147
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:52
+msgid "Ramdisk ID"
+msgstr "内存虚拟盘ID"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:152
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:44
+msgid "Architecture"
+msgstr "结构"
+
+#: dashboards/project/images_and_snapshots/images/forms.py:164
+#, python-format
+msgid "Unable to update image \"%s\"."
+msgstr "不能更新镜像 \"%s\"."
+
+#: dashboards/project/images_and_snapshots/images/forms.py:188
+msgid "Image was successfully updated."
+msgstr "镜像更新成功"
+
+#: dashboards/project/images_and_snapshots/images/tables.py:37
+#: dashboards/project/images_and_snapshots/snapshots/tables.py:33
+#: dashboards/project/instances/workflows/create_instance.py:466
+msgid "Launch"
+msgstr "运行"
+
+#: dashboards/project/images_and_snapshots/images/tables.py:49
+#: dashboards/project/images_and_snapshots/images/tables.py:131
+#: dashboards/project/instances/workflows/create_instance.py:171
+#: dashboards/project/instances/workflows/create_instance.py:176
+msgid "Image"
+msgstr "镜像"
+
+#: dashboards/project/images_and_snapshots/images/tabs.py:38
+msgid "Unable to retrieve image details."
+msgstr "不能检索镜像细节"
+
+#: dashboards/project/images_and_snapshots/images/views.py:61
+msgid "Unable to retrieve image."
+msgstr "不能检索镜像"
+
+#: dashboards/project/images_and_snapshots/snapshots/forms.py:37
+msgid "Instance ID"
+msgstr "实例ID"
+
+#: dashboards/project/images_and_snapshots/snapshots/forms.py:40
+#: dashboards/project/volumes/forms.py:240
+msgid "Snapshot Name"
+msgstr "快照名称"
+
+#: dashboards/project/images_and_snapshots/snapshots/forms.py:50
+#, python-format
+msgid "Snapshot \"%(name)s\" created for instance \"%(inst)s\""
+msgstr "快照 \"%(name)s\"创建实例\"%(inst)s\""
+
+#: dashboards/project/images_and_snapshots/snapshots/forms.py:56
+msgid "Unable to create snapshot."
+msgstr "不能创建快照"
+
+#: dashboards/project/images_and_snapshots/snapshots/tables.py:48
+#: dashboards/project/instances/workflows/create_instance.py:110
+#: dashboards/project/instances/workflows/create_instance.py:172
+msgid "Snapshot"
+msgstr "快照"
+
+#: dashboards/project/images_and_snapshots/snapshots/tables.py:49
+msgid "Snapshots"
+msgstr "快照"
+
+#: dashboards/project/images_and_snapshots/snapshots/tables.py:55
+msgid "Instance Snapshots"
+msgstr "实例快照"
+
+#: dashboards/project/images_and_snapshots/snapshots/views.py:53
+msgid "Unable to retrieve instance."
+msgstr "不能检索实例"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/index.html:3
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/index.html:6
+msgid "Images &amp; Snapshots"
+msgstr "快照"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:3
+msgid "Image Overview"
+msgstr "镜像概览"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:6
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:7
+#: dashboards/project/instances/templates/instances/_detail_overview.html:6
+#: dashboards/project/instances/workflows/update_instance.py:148
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:6
+msgid "Info"
+msgstr "信息"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:17
+msgid "Checksum"
+msgstr "检查总数"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:19
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:39
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:28
+msgid "Created"
+msgstr "新建"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:21
+msgid "Updated"
+msgstr "更新"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:27
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:34
+#: dashboards/project/instances/templates/instances/_detail_overview.html:19
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:23
+msgid "Specs"
+msgstr "规格"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:32
+msgid "Container Format"
+msgstr "文件格式"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:34
+msgid "Disk Format"
+msgstr "磁盘格式"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:40
+msgid "Custom Properties"
+msgstr "自定义属性"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:56
+msgid "Euca2ools state"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/_detail_overview.html:64
+msgid "Image Type"
+msgstr "镜像类型"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/images/detail.html:4
+msgid "Image Detail "
+msgstr "镜像细节"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_create.html:8
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_create.html:23
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/create.html:3
+#: dashboards/project/instances/tables.py:235
+#: dashboards/project/volumes/tables.py:78
+msgid "Create Snapshot"
+msgstr "创建快照"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_create.html:18
+msgid "Snapshots preserve the disk state of a running instance."
+msgstr "快照保存磁盘运行实例的状态."
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:20
+#: dashboards/project/instances/templates/instances/_detail_overview.html:97
+#: dashboards/project/instances/workflows/create_instance.py:78
+#: dashboards/project/instances/workflows/create_instance.py:113
+#: dashboards/project/volumes/tables.py:38
+#: dashboards/project/volumes/tables.py:193
+msgid "Volume"
+msgstr "卷"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/_detail_overview.html:38
+#: dashboards/project/instances/templates/instances/_detail_overview.html:29
+#: dashboards/project/instances/templates/instances/_detail_overview.html:32
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:11
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:12
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:13
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:27
+msgid "GB"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/create.html:6
+msgid "Create a Snapshot"
+msgstr "创建快照"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/detail.html:3
+msgid "Volume Snapshot Details"
+msgstr "卷快照细节"
+
+#: dashboards/project/images_and_snapshots/templates/images_and_snapshots/snapshots/detail.html:6
+msgid "Volume Snapshot Detail"
+msgstr "卷快照细节"
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:35
+#: dashboards/project/instances/workflows/create_instance.py:79
+msgid "Volume Snapshot"
+msgstr "卷快照"
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:36
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:89
+msgid "Volume Snapshots"
+msgstr "卷快照"
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:37
+#: dashboards/project/loadbalancers/tables.py:70
+#: dashboards/project/loadbalancers/tables.py:83
+#: dashboards/project/loadbalancers/tables.py:91
+#: dashboards/project/loadbalancers/tables.py:99
+#: dashboards/project/volumes/tables.py:40
+msgid "Scheduled deletion of"
+msgstr ""
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:45
+#: dashboards/project/volumes/tables.py:61
+#: dashboards/project/volumes/templates/volumes/_create.html:8
+#: dashboards/project/volumes/templates/volumes/_create.html:55
+#: dashboards/project/volumes/templates/volumes/create.html:3
+msgid "Create Volume"
+msgstr "创建卷"
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tables.py:84
+#: dashboards/project/volumes/forms.py:28
+msgid "Volume Name"
+msgstr "卷名"
+
+#: dashboards/project/images_and_snapshots/volume_snapshots/tabs.py:41
+msgid "Unable to retrieve snapshot details."
+msgstr ""
+
+#: dashboards/project/instances/tables.py:71
+msgid "Terminate"
+msgstr "终端"
+
+#: dashboards/project/instances/tables.py:72
+msgid "Scheduled termination of"
+msgstr ""
+
+#: dashboards/project/instances/tables.py:86
+msgid "Hard Reboot"
+msgstr "硬重启"
+
+#: dashboards/project/instances/tables.py:87
+msgid "Hard Rebooted"
+msgstr "硬重启"
+
+#: dashboards/project/instances/tables.py:103
+msgid "Soft Reboot"
+msgstr "软重启"
+
+#: dashboards/project/instances/tables.py:104
+msgid "Soft Rebooted"
+msgstr "软重启"
+
+#: dashboards/project/instances/tables.py:112
+msgid "Pause"
+msgstr "暂停"
+
+#: dashboards/project/instances/tables.py:112
+#: dashboards/project/instances/tables.py:141
+msgid "Resume"
+msgstr "回复"
+
+#: dashboards/project/instances/tables.py:113
+msgid "Paused"
+msgstr "暂停"
+
+#: dashboards/project/instances/tables.py:113
+#: dashboards/project/instances/tables.py:142
+msgid "Resumed"
+msgstr "回复"
+
+#: dashboards/project/instances/tables.py:141
+msgid "Suspend"
+msgstr "暂停"
+
+#: dashboards/project/instances/tables.py:142
+msgid "Suspended"
+msgstr "暂停"
+
+#: dashboards/project/instances/tables.py:170
+#: dashboards/project/instances/tables.py:191
+#: dashboards/project/instances/templates/instances/launch.html:3
+#: dashboards/project/instances/templates/instances/launch.html:6
+#: dashboards/project/instances/workflows/create_instance.py:465
+#: dashboards/project/network_topology/templates/network_topology/index.html:26
+msgid "Launch Instance"
+msgstr "运行实例"
+
+#: dashboards/project/instances/tables.py:189
+msgid "(Quota exceeded)"
+msgstr "(配额超出)"
+
+#: dashboards/project/instances/tables.py:204
+#: dashboards/project/instances/templates/instances/update.html:3
+#: dashboards/project/instances/templates/instances/update.html:6
+#: dashboards/project/instances/workflows/update_instance.py:161
+msgid "Edit Instance"
+msgstr "编辑实例"
+
+#: dashboards/project/instances/tables.py:222
+msgid "Edit Security Groups"
+msgstr "编辑安全组"
+
+#: dashboards/project/instances/tables.py:245
+#: dashboards/project/instances/tabs.py:55
+msgid "Console"
+msgstr "控制台"
+
+#: dashboards/project/instances/tables.py:260
+msgid "View Log"
+msgstr "查看日志"
+
+#: dashboards/project/instances/tables.py:275
+msgid "Confirm Resize/Migrate"
+msgstr "确认调整/迁移"
+
+#: dashboards/project/instances/tables.py:287
+msgid "Revert Resize/Migrate"
+msgstr "回复调整/迁移"
+
+#: dashboards/project/instances/tables.py:334
+#, python-format
+msgid "Successfully associated floating IP: %s"
+msgstr "不能连接动态IP: %s"
+
+#: dashboards/project/instances/tables.py:338
+msgid "Unable to associate floating IP."
+msgstr "不能连接动态IP"
+
+#: dashboards/project/instances/tables.py:364
+#, python-format
+msgid "Successfully disassociated floating IP: %s"
+msgstr "成功连接动态IP: %s"
+
+#: dashboards/project/instances/tables.py:367
+msgid "No floating IPs to disassociate."
+msgstr ""
+
+#: dashboards/project/instances/tables.py:392
+#, python-format
+msgid "%(name)s | %(RAM)s RAM | %(VCPU)s VCPU | %(disk)s Disk"
+msgstr ""
+
+#: dashboards/project/instances/tables.py:399
+#: dashboards/project/instances/tables.py:406
+msgid "Not available"
+msgstr "不可用"
+
+#: dashboards/project/instances/tables.py:446
+#: dashboards/project/instances/workflows/create_instance.py:179
+#: usage/tables.py:57
+msgid "Instance Name"
+msgstr "实例名"
+
+#: dashboards/project/instances/tabs.py:36
+msgid "Log"
+msgstr "日志"
+
+#: dashboards/project/instances/tabs.py:48
+#: dashboards/project/instances/views.py:105
+#, python-format
+msgid "Unable to get log for instance \"%s\"."
+msgstr "不能得到实例日志 \"%s\"."
+
+#: dashboards/project/instances/views.py:58
+msgid "Unable to retrieve instances."
+msgstr "不能检索实例"
+
+#: dashboards/project/instances/views.py:121
+#, python-format
+msgid "Unable to get VNC console for instance \"%s\"."
+msgstr ""
+
+#: dashboards/project/instances/views.py:133
+#, python-format
+msgid "Unable to get SPICE console for instance \"%s\"."
+msgstr "不能 \"%s\"."
+
+#: dashboards/project/instances/views.py:154
+msgid "Unable to retrieve instance details."
+msgstr "不能检索实例细节"
+
+#: dashboards/project/instances/views.py:190
+#, python-format
+msgid "Unable to retrieve details for instance \"%s\"."
+msgstr "不能检索实例细节 \"%s\"."
+
+#: dashboards/project/instances/templates/instances/_detail_console.html:3
+msgid "Instance Console"
+msgstr "实例控制台"
+
+#: dashboards/project/instances/templates/instances/_detail_console.html:5
+msgid ""
+"If console is not responding to keyboard input: click the grey status bar "
+"below."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_console.html:5
+msgid "Click here to show only console"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_console.html:19
+msgid "console is currently unavailable. Please try again later."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_console.html:20
+msgid "Reload"
+msgstr "重新加载"
+
+#: dashboards/project/instances/templates/instances/_detail_log.html:4
+msgid "Instance Console Log"
+msgstr "实例控制台日志"
+
+#: dashboards/project/instances/templates/instances/_detail_log.html:7
+msgid "Log Length"
+msgstr "日志长度"
+
+#: dashboards/project/instances/templates/instances/_detail_log.html:9
+msgid "Go"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_log.html:11
+msgid "View Full Log"
+msgstr "查看全部日志"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:3
+#: dashboards/project/overview/templates/overview/usage.html:3
+msgid "Instance Overview"
+msgstr "实例概览"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:27
+msgid "VCPU"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:28
+#: usage/tables.py:20
+msgid "Disk"
+msgstr "磁盘"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:38
+msgid "IP Addresses"
+msgstr "IP地址"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:63
+msgid "No rules defined."
+msgstr "没有定义规则"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:72
+msgid "Meta"
+msgstr "元"
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:75
+msgid "Key Name"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:88
+msgid "Volumes Attached"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:92
+#: dashboards/project/volumes/tables.py:178
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:38
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:45
+msgid "Attached To"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:94
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:42
+msgid "on"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_detail_overview.html:98
+msgid "No volumes attached."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_customize_help.html:2
+msgid ""
+"You can customize your instance after it's launched using the options "
+"available here."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_customize_help.html:3
+msgid ""
+"The \"Customization Script\" field is analogous to \"User Data\" in other "
+"systems."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:3
+msgid "Specify the details for launching an instance."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:4
+msgid ""
+"The chart below shows the resources used by this project in relation to the "
+"project's quotas."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:6
+msgid "Flavor Details"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:13
+msgid "Total Disk"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:14
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:37
+msgid "MB"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:21
+msgid "Number of Instances"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:29
+msgid "Number of VCPUs"
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_details_help.html:37
+msgid "Total RAM"
+msgstr "总RAM"
+
+#: dashboards/project/instances/templates/instances/_launch_network_help.html:3
+msgid ""
+"Choose network from Available networks to Selected Networks by push button "
+"or drag and drop, you may change nic order by drag and drop as well. "
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_launch_volumes_help.html:3
+msgid ""
+"An instance can be launched with varying types of attached storage. You may "
+"select from those options here."
+msgstr ""
+
+#: dashboards/project/instances/templates/instances/_update_networks.html:8
+msgid "Selected Networks"
+msgstr "选择网络"
+
+#: dashboards/project/instances/templates/instances/_update_networks.html:11
+msgid "Available networks"
+msgstr "可用的网络"
+
+#: dashboards/project/instances/templates/instances/detail.html:3
+msgid "Instance Detail"
+msgstr "实例细节"
+
+#: dashboards/project/instances/workflows/create_instance.py:56
+msgid "Project & User"
+msgstr "项目&用户"
+
+#: dashboards/project/instances/workflows/create_instance.py:69
+msgid "Don't boot from a volume."
+msgstr "不从卷启动"
+
+#: dashboards/project/instances/workflows/create_instance.py:70
+msgid "Boot from volume."
+msgstr "从卷启动"
+
+#: dashboards/project/instances/workflows/create_instance.py:71
+msgid "Boot from volume snapshot (creates a new volume)."
+msgstr "从卷快照启动(创建一个新卷)"
+
+#: dashboards/project/instances/workflows/create_instance.py:75
+#: dashboards/project/instances/workflows/create_instance.py:93
+msgid "Volume Options"
+msgstr "卷选项"
+
+#: dashboards/project/instances/workflows/create_instance.py:81
+#: dashboards/project/volumes/forms.py:170
+msgid "Device Name"
+msgstr "设备名"
+
+#: dashboards/project/instances/workflows/create_instance.py:84
+msgid "Volume mount point (e.g. 'vda' mounts at '/dev/vda')."
+msgstr "卷挂载点(e.g. 'vda' mounts at '/dev/vda')"
+
+#: dashboards/project/instances/workflows/create_instance.py:86
+msgid "Delete on Terminate"
+msgstr "删除终端"
+
+#: dashboards/project/instances/workflows/create_instance.py:89
+msgid "Delete volume on instance terminate"
+msgstr "删除实例终端上的卷"
+
+#: dashboards/project/instances/workflows/create_instance.py:103
+#, python-format
+msgid "Please choose a volume, or select %s."
+msgstr "请选择一个卷，或者选择 %s"
+
+#: dashboards/project/instances/workflows/create_instance.py:120
+msgid "Select Volume"
+msgstr "选择卷"
+
+#: dashboards/project/instances/workflows/create_instance.py:128
+msgid "Unable to retrieve list of volumes."
+msgstr "不能检索到卷列表"
+
+#: dashboards/project/instances/workflows/create_instance.py:132
+msgid "Select Volume Snapshot"
+msgstr "选择卷快照"
+
+#: dashboards/project/instances/workflows/create_instance.py:141
+msgid "Unable to retrieve list of volume snapshots."
+msgstr "不能检索到卷快照列表"
+
+#: dashboards/project/instances/workflows/create_instance.py:174
+msgid "Instance Source"
+msgstr "实例源"
+
+#: dashboards/project/instances/workflows/create_instance.py:177
+msgid "Instance Snapshot"
+msgstr "实例快照"
+
+#: dashboards/project/instances/workflows/create_instance.py:181
+msgid "Size of image to launch."
+msgstr "运行镜像的大小"
+
+#: dashboards/project/instances/workflows/create_instance.py:182
+msgid "Instance Count"
+msgstr "实例数"
+
+#: dashboards/project/instances/workflows/create_instance.py:185
+msgid "Number of instances to launch."
+msgstr "可运行的实例数量"
+
+#: dashboards/project/instances/workflows/create_instance.py:188
+msgid "Details"
+msgstr "细节"
+
+#: dashboards/project/instances/workflows/create_instance.py:201
+msgid ""
+"There are no image sources available; you must first create an image before "
+"attempting to launch an instance."
+msgstr ""
+"没有可用的镜像，您必须先创建一个镜像"
+"在运行实例之前"
+#: dashboards/project/instances/workflows/create_instance.py:206
+msgid "Please select an option for the instance source."
+msgstr "请选择一个实例源"
+
+#: dashboards/project/instances/workflows/create_instance.py:215
+msgid ""
+"Launching multiple instances is only supported for images and instance "
+"snapshots."
+msgstr ""
+"启动多个实例仅支持图片和实例"
+"快照"
+#: dashboards/project/instances/workflows/create_instance.py:232
+msgid "Unable to retrieve public images."
+msgstr "不能检索公共镜像"
+
+#: dashboards/project/instances/workflows/create_instance.py:248
+msgid "Unable to retrieve images for the current project."
+msgstr "不能检索到当前项目的镜像"
+
+#: dashboards/project/instances/workflows/create_instance.py:271
+msgid "Select Image"
+msgstr "选择镜像"
+
+#: dashboards/project/instances/workflows/create_instance.py:273
+msgid "No images available."
+msgstr "没有可用的镜像"
+
+#: dashboards/project/instances/workflows/create_instance.py:282
+msgid "Select Instance Snapshot"
+msgstr "选择一个快照实例"
+
+#: dashboards/project/instances/workflows/create_instance.py:284
+msgid "No snapshots available."
+msgstr "没有可用的快照"
+
+#: dashboards/project/instances/workflows/create_instance.py:295
+msgid "Unable to retrieve instance flavors."
+msgstr "不能检索类型模板实例"
+
+#: dashboards/project/instances/workflows/create_instance.py:308
+#: usage/base.py:115
+msgid "Unable to retrieve quota information."
+msgstr "不能检索配额信息"
+
+#: dashboards/project/instances/workflows/create_instance.py:341
+msgid "Which keypair to use for authentication."
+msgstr ""
+
+#: dashboards/project/instances/workflows/create_instance.py:348
+msgid "Launch instance in these security groups."
+msgstr "在这些安全组中运行实例"
+
+#: dashboards/project/instances/workflows/create_instance.py:353
+msgid ""
+"Control access to your instance via keypairs, security groups, and other "
+"mechanisms."
+msgstr ""
+"通过密钥对控制您的实例访问,安全组,和其他机制"
+#: dashboards/project/instances/workflows/create_instance.py:363
+msgid "Unable to retrieve keypairs."
+msgstr "不能检索密钥对"
+
+#: dashboards/project/instances/workflows/create_instance.py:367
+msgid "Select a keypair"
+msgstr "选择一个密钥对"
+
+#: dashboards/project/instances/workflows/create_instance.py:369
+msgid "No keypairs available."
+msgstr "没有可用的密钥对"
+
+#: dashboards/project/instances/workflows/create_instance.py:378
+msgid "Unable to retrieve list of security groups"
+msgstr "不能检索安全组列表"
+
+#: dashboards/project/instances/workflows/create_instance.py:398
+msgid "Customization Script"
+msgstr "自定义脚本"
+
+#: dashboards/project/instances/workflows/create_instance.py:400
+msgid ""
+"A script or set of commands to be executed after the instance has been built"
+" (max 16kb)."
+msgstr ""
+
+#: dashboards/project/instances/workflows/create_instance.py:407
+msgid "Post-Creation"
+msgstr ""
+
+#: dashboards/project/instances/workflows/create_instance.py:423
+msgid "At least one network must be specified."
+msgstr "至少一个网络必须被指定"
+
+#: dashboards/project/instances/workflows/create_instance.py:425
+msgid "Launch instance withthese networks"
+msgstr "使用此网络运行实例"
+
+#: dashboards/project/instances/workflows/create_instance.py:429
+msgid "Networking"
+msgstr "网络"
+
+#: dashboards/project/instances/workflows/create_instance.py:431
+msgid "Select networks for your instance."
+msgstr "为你的实例选择网络"
+
+#: dashboards/project/instances/workflows/create_instance.py:443
+msgid "Unable to retrieve networks."
+msgstr "不能检索网络"
+
+#: dashboards/project/instances/workflows/create_instance.py:467
+#, python-format
+msgid "Launched %(count)s named \"%(name)s\"."
+msgstr "运行 %(count)s named \"%(name)s\"."
+
+#: dashboards/project/instances/workflows/create_instance.py:468
+#, python-format
+msgid "Unable to launch %(count)s named \"%(name)s\"."
+msgstr "不能运行 %(count)s named \"%(name)s\"."
+
+#: dashboards/project/instances/workflows/create_instance.py:481
+#, python-format
+msgid "%s instances"
+msgstr "%s 实例"
+
+#: dashboards/project/instances/workflows/create_instance.py:484
+msgid "instance"
+msgstr "实例"
+
+#: dashboards/project/instances/workflows/update_instance.py:47
+msgid "Unable to retrieve security group list. Please try again later."
+msgstr "不能检索到安全组列表，请稍后重试"
+
+#: dashboards/project/instances/workflows/update_instance.py:81
+#, python-format
+msgid "Couldn't get current security group list for instance %s."
+msgstr "无法得到当前的安全组实例 %s."
+
+#: dashboards/project/instances/workflows/update_instance.py:103
+#, python-format
+msgid "Failed to modify %d instance security groups."
+msgstr "更改 %d 安全组实例失败"
+
+#: dashboards/project/instances/workflows/update_instance.py:117
+msgid ""
+"From here you can add and remove security groups to this project from the "
+"list of available security groups."
+msgstr ""
+
+#: dashboards/project/instances/workflows/update_instance.py:119
+msgid "All Security Groups"
+msgstr "所有安全组"
+
+#: dashboards/project/instances/workflows/update_instance.py:120
+msgid "Instance Security Groups"
+msgstr "安全组实例"
+
+#: dashboards/project/instances/workflows/update_instance.py:121
+msgid "No security groups found."
+msgstr "找不到安全组"
+
+#: dashboards/project/instances/workflows/update_instance.py:122
+msgid "No security groups enabled."
+msgstr "无法启用安全组"
+
+#: dashboards/project/instances/workflows/update_instance.py:150
+msgid "From here you can edit the instance details."
+msgstr "这里你可以编辑实例细节"
+
+#: dashboards/project/instances/workflows/update_instance.py:163
+#, python-format
+msgid "Modified instance \"%s\"."
+msgstr "更改实例\"%s\"."
+
+#: dashboards/project/instances/workflows/update_instance.py:164
+#, python-format
+msgid "Unable to modify instance \"%s\"."
+msgstr "无法更改实例\"%s\"."
+
+#: dashboards/project/loadbalancers/panel.py:10
+msgid "Load Balancers"
+msgstr "负载均衡"
+
+#: dashboards/project/loadbalancers/tables.py:32
+#: dashboards/project/loadbalancers/workflows.py:96
+msgid "Add Pool"
+msgstr "添加池"
+
+#: dashboards/project/loadbalancers/tables.py:39
+#: dashboards/project/loadbalancers/workflows.py:193
+msgid "Add Vip"
+msgstr "添加VIP"
+
+#: dashboards/project/loadbalancers/tables.py:55
+#: dashboards/project/loadbalancers/workflows.py:325
+msgid "Add Member"
+msgstr "添加成员"
+
+#: dashboards/project/loadbalancers/tables.py:62
+#: dashboards/project/loadbalancers/workflows.py:429
+msgid "Add Monitor"
+msgstr "添加监控"
+
+#: dashboards/project/loadbalancers/tables.py:69
+#: dashboards/project/loadbalancers/tables.py:82
+#: dashboards/project/loadbalancers/tables.py:90
+#: dashboards/project/loadbalancers/tables.py:98
+msgid "Delete"
+msgstr "删除"
+
+#: dashboards/project/loadbalancers/tables.py:71
+msgid "Vip"
+msgstr ""
+
+#: dashboards/project/loadbalancers/tables.py:72
+msgid "Vips"
+msgstr ""
+
+#: dashboards/project/loadbalancers/tables.py:85
+#: dashboards/project/loadbalancers/tables.py:121
+#: dashboards/project/loadbalancers/tabs.py:32
+msgid "Pools"
+msgstr "池"
+
+
+#: dashboards/project/loadbalancers/tables.py:93
+#: dashboards/project/loadbalancers/tables.py:160
+#: dashboards/project/loadbalancers/tabs.py:68
+msgid "Monitors"
+msgstr "监控"
+
+#: dashboards/project/loadbalancers/tables.py:100
+msgid "Member"
+msgstr "成员"
+
+#: dashboards/project/loadbalancers/tables.py:101
+#: dashboards/project/loadbalancers/tables.py:147
+#: dashboards/project/loadbalancers/tabs.py:50
+msgid "Members"
+msgstr "成员"
+
+#: dashboards/project/loadbalancers/tables.py:116
+msgid "VIP"
+msgstr ""
+
+#: dashboards/project/loadbalancers/tables.py:141
+#: dashboards/project/loadbalancers/workflows.py:131
+#: dashboards/project/loadbalancers/workflows.py:257
+msgid "Protocol Port"
+msgstr "协议端口"
+
+#: dashboards/project/loadbalancers/tables.py:156
+msgid "Monitor Type"
+msgstr "监控类型"
+
+#: dashboards/project/loadbalancers/tabs.py:44
+#: dashboards/project/loadbalancers/workflows.py:270
+#: dashboards/project/loadbalancers/workflows.py:388
+msgid "Unable to retrieve pools list."
+msgstr "不能检索池列表"
+
+#: dashboards/project/loadbalancers/tabs.py:62
+msgid "Unable to retrieve member list."
+msgstr "不能检索成员列表"
+
+#: dashboards/project/loadbalancers/tabs.py:79
+msgid "Unable to retrieve monitor list."
+msgstr "不能检索监控列表"
+
+#: dashboards/project/loadbalancers/tabs.py:90
+msgid "Pool Details"
+msgstr "池细节"
+
+#: dashboards/project/loadbalancers/tabs.py:101
+msgid "Unable to retrieve pool details."
+msgstr "不能检索池细节"
+
+#: dashboards/project/loadbalancers/tabs.py:106
+msgid "Vip Details"
+msgstr "VIP细节"
+
+#: dashboards/project/loadbalancers/tabs.py:117
+msgid "Unable to retrieve vip details."
+msgstr "不能检索VIP细节"
+
+#: dashboards/project/loadbalancers/tabs.py:122
+msgid "Member Details"
+msgstr "成员细节"
+
+#: dashboards/project/loadbalancers/tabs.py:133
+msgid "Unable to retrieve member details."
+msgstr "不能检索成员细节"
+
+#: dashboards/project/loadbalancers/tabs.py:138
+msgid "Monitor Details"
+msgstr "监控细节"
+
+#: dashboards/project/loadbalancers/tabs.py:149
+msgid "Unable to retrieve monitor details."
+msgstr "无法检索监控细节"
+
+#: dashboards/project/loadbalancers/views.py:55
+msgid "Unable to delete monitor."
+msgstr "无法删除监控"
+
+#: dashboards/project/loadbalancers/views.py:62
+msgid "Must delete Vip first."
+msgstr "必须先删除VIP"
+
+#: dashboards/project/loadbalancers/views.py:69
+msgid "Unable to delete member."
+msgstr "无法删除成员"
+
+#: dashboards/project/loadbalancers/views.py:76
+msgid "Unable to locate vip to delete."
+msgstr "不能删除指定VIP"
+
+#: dashboards/project/loadbalancers/views.py:82
+msgid "Unable to delete vip."
+msgstr "不能删除VIP"
+
+#: dashboards/project/loadbalancers/views.py:112
+msgid "Unable to retrieve pool subnet."
+msgstr "不能检索子网池"
+
+#: dashboards/project/loadbalancers/workflows.py:40
+msgid "Load Balancing Method"
+msgstr "负载均衡方法"
+
+#: dashboards/project/loadbalancers/workflows.py:49
+msgid "Select a Subnet"
+msgstr "选择一个子网"
+
+#: dashboards/project/loadbalancers/workflows.py:54
+msgid "Unable to retrieve networks list."
+msgstr "不能检索网络列表"
+
+#: dashboards/project/loadbalancers/workflows.py:60
+#: dashboards/project/loadbalancers/workflows.py:65
+#: dashboards/project/loadbalancers/workflows.py:152
+msgid "Select a Protocol"
+msgstr "选择一个端口"
+
+#: dashboards/project/loadbalancers/workflows.py:72
+msgid "PoolDetails"
+msgstr "池细节"
+
+#: dashboards/project/loadbalancers/workflows.py:74
+msgid ""
+"Create Pool for current tenant.\n"
+"\n"
+"Assign a name and description for the pool. Choose one subnet where all members of this pool must be on. Select the protocol and load balancing method for this pool. Admin State is UP (checked) by defaul.t"
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:98
+#, python-format
+msgid "Added Pool \"%s\"."
+msgstr "添加池\"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:99
+#, python-format
+msgid "Unable to add Pool \"%s\"."
+msgstr "不能添加池 \"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:124
+msgid "Vip Address from Floating IPs"
+msgstr "动态IP的VIP地址"
+
+#: dashboards/project/loadbalancers/workflows.py:134
+msgid "Session Persistence"
+msgstr "会话持久化"
+
+#: dashboards/project/loadbalancers/workflows.py:137
+msgid "Cookie Name"
+msgstr "Cookie名称"
+
+#: dashboards/project/loadbalancers/workflows.py:138
+msgid "Required for APP_COOKIE persistence; Ignored otherwise."
+msgstr "需要 APP_COOKIE持久化"
+
+#: dashboards/project/loadbalancers/workflows.py:141
+msgid "Connection Limit"
+msgstr "连接限制"
+
+#: dashboards/project/loadbalancers/workflows.py:148
+#, python-format
+msgid "Specify a free IP address from %s"
+msgstr "指定 %s 空闲IP地址"
+
+#: dashboards/project/loadbalancers/workflows.py:157
+msgid "Set Session Persistence"
+msgstr "设置会话持久化"
+
+#: dashboards/project/loadbalancers/workflows.py:163
+msgid "Currently Not Supported"
+msgstr "目前没有支持"
+
+#: dashboards/project/loadbalancers/workflows.py:167
+msgid "AddVip"
+msgstr "添加VIP"
+
+#: dashboards/project/loadbalancers/workflows.py:169
+msgid ""
+"Create a vip (virtual IP) for this pool. Assign a name and description for "
+"the vip. Specify an IP address and port for the vip. Choose the protocol and"
+" session persistence method for the vip.Specify the max connections allowed."
+" Admin State is UP (checked) by default."
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:195
+#, python-format
+msgid "Added Vip \"%s\"."
+msgstr "添加VIP \"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:196
+#, python-format
+msgid "Unable to add Vip \"%s\"."
+msgstr "不能添加VIP \"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:209
+#, python-format
+msgid "Only one address can be specified.Unable to add Vip %s."
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:220
+msgid "Unable to retrieve pool."
+msgstr "无法检索池"
+
+#: dashboards/project/loadbalancers/workflows.py:227
+msgid "Cookie name must be specified with APP_COOKIE persistence."
+msgstr "Cookie名必须制定APP_COOKIE持久化"
+
+#: dashboards/project/loadbalancers/workflows.py:251
+msgid "Member(s)"
+msgstr "成员"
+
+#: dashboards/project/loadbalancers/workflows.py:255
+#: dashboards/project/loadbalancers/workflows.py:289
+msgid "Select members for this pool "
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:256
+msgid "Weight"
+msgstr "负重"
+
+#: dashboards/project/loadbalancers/workflows.py:264
+#: dashboards/project/loadbalancers/workflows.py:383
+msgid "Select a Pool"
+msgstr "选择一个池"
+
+#: dashboards/project/loadbalancers/workflows.py:283
+msgid "Unable to retrieve instances list."
+msgstr "无法检索实例列表"
+
+#: dashboards/project/loadbalancers/workflows.py:286
+msgid "No servers available. Click Add to cancel."
+msgstr "没有可用的服务。点击取消"
+
+#: dashboards/project/loadbalancers/workflows.py:303
+msgid "MemberDetails"
+msgstr "成员细节"
+
+#: dashboards/project/loadbalancers/workflows.py:305
+msgid ""
+"Add member to selected pool.\n"
+"\n"
+"Choose one or more listed instances to be added to the pool as member(s). Assign a numeric weight for this member Specify the port number the member(s) operate on; e.g., 80."
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:327
+#, python-format
+msgid "Added Member \"%s\"."
+msgstr "添加用户\"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:328
+#, python-format
+msgid "Unable to add Member %s."
+msgstr "不能添加用户%s."
+
+#: dashboards/project/loadbalancers/workflows.py:338
+#, python-format
+msgid "No instances available.%s"
+msgstr "没有可用的实例.%s"
+
+#: dashboards/project/loadbalancers/workflows.py:349
+msgid "Unable to retrieve ports list."
+msgstr "无法检索端口列表"
+
+#: dashboards/project/loadbalancers/workflows.py:366
+msgid "Delay"
+msgstr "延迟"
+
+#: dashboards/project/loadbalancers/workflows.py:367
+msgid "Timeout"
+msgstr "超时"
+
+#: dashboards/project/loadbalancers/workflows.py:369
+msgid "Max Retries (1~10)"
+msgstr "最大连接次数(1~10)"
+
+#: dashboards/project/loadbalancers/workflows.py:371
+msgid "HTTP Method"
+msgstr "HTTP方法"
+
+#: dashboards/project/loadbalancers/workflows.py:373
+msgid "URL"
+msgstr ""
+
+#: dashboards/project/loadbalancers/workflows.py:376
+msgid "Expected HTTP Status Codes"
+msgstr "预期HTTP状态码"
+
+#: dashboards/project/loadbalancers/workflows.py:393
+msgid "Select Type"
+msgstr "选择类型"
+
+#: dashboards/project/loadbalancers/workflows.py:400
+msgid "Select HTTP Method"
+msgstr "选择HTTP方法"
+
+#: dashboards/project/loadbalancers/workflows.py:405
+msgid "MonitorDetails"
+msgstr "监控细节"
+
+#: dashboards/project/loadbalancers/workflows.py:407
+msgid ""
+"Create a monitor for a pool.\n"
+"\n"
+"Select target pool and type of monitoring. Specify delay, timeout, and retry limits required by the monitor. Specify method, URL path, and expected HTTP codes upon success."
+msgstr ""
+"创建一个监控池\n"
+"指定延迟、超时和重试限制要求的监控。指定方法、URL路径和预期HTTP代码成功。"
+
+
+#: dashboards/project/loadbalancers/workflows.py:431
+#, python-format
+msgid "Added Monitor \"%s\"."
+msgstr "添加监控 \"%s\"."
+
+#: dashboards/project/loadbalancers/workflows.py:432
+#, python-format
+msgid "Unable to add Monitor \"%s\"."
+msgstr "无法添加监控 \"%s\"."
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:6
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:6
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:6
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:6
+msgid "ID: "
+msgstr ""
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:9
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:9
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:9
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:9
+msgid "Tenant ID: "
+msgstr "租户ID:"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:12
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:30
+msgid "Pool ID: "
+msgstr "池ID："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:15
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:21
+msgid "Address: "
+msgstr "地址："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:18
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:24
+msgid "Protocol Port: "
+msgstr "协议端口："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:21
+msgid "Weight: "
+msgstr "负重："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:24
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:33
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:36
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:42
+msgid "Admin State Up: "
+msgstr "管理员状态:"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_member_details.html:27
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:36
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:39
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:45
+msgid "Status: "
+msgstr "状态："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:12
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:34
+msgid "Type: "
+msgstr "类型："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:15
+msgid "Delay: "
+msgstr "延迟："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:18
+msgid "Timeout: "
+msgstr "超时："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:21
+msgid "Max Retries: "
+msgstr "最大重试次数："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:24
+msgid "HTTP Method: "
+msgstr "HTTP方法："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:27
+msgid "URL Path: "
+msgstr "URL路径："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_monitor_details.html:30
+msgid "Expected Codes: "
+msgstr ""
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:12
+msgid "VIP ID: "
+msgstr ""
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:15
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:12
+msgid "Name: "
+msgstr "名称："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:18
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:15
+msgid "Description: "
+msgstr "描述："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:21
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:18
+msgid "Subnet ID: "
+msgstr "子网ID:"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:24
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:27
+msgid "Protocol: "
+msgstr "协议:"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:27
+msgid "Load Balancing Method: "
+msgstr "负载均衡方法："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:30
+msgid "Members: "
+msgstr "成员："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_pool_details.html:33
+msgid "Health Monitors: "
+msgstr "健康监控："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:33
+msgid "Session Persistence: "
+msgstr "会话持久性："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:36
+msgid "Cookie Name: "
+msgstr "Cookie名："
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/_vip_details.html:39
+msgid "Connection Limit: "
+msgstr "连接限制:"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/addmember.html:3
+#: dashboards/project/loadbalancers/templates/loadbalancers/addmember.html:6
+msgid "Add New Member"
+msgstr "添加一个新成员"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/addmonitor.html:3
+#: dashboards/project/loadbalancers/templates/loadbalancers/addmonitor.html:6
+msgid "Add New Monitor"
+msgstr "添加一个新监控"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/addpool.html:3
+#: dashboards/project/loadbalancers/templates/loadbalancers/addpool.html:6
+msgid "Add New Pool"
+msgstr "添加一个新池"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/addvip.html:3
+#: dashboards/project/loadbalancers/templates/loadbalancers/addvip.html:6
+msgid "Specify Vip"
+msgstr "指定VIP"
+
+#: dashboards/project/loadbalancers/templates/loadbalancers/details_tabs.html:3
+#: dashboards/project/loadbalancers/templates/loadbalancers/details_tabs.html:6
+msgid "Load Balancer"
+msgstr "负载均衡"
+
+#: dashboards/project/network_topology/panel.py:29
+#: dashboards/project/network_topology/templates/network_topology/index.html:3
+#: dashboards/project/network_topology/templates/network_topology/index.html:6
+msgid "Network Topology"
+msgstr "网络拓扑"
+
+#: dashboards/project/network_topology/templates/network_topology/index.html:23
+msgid "This pane needs javascript support."
+msgstr "这个窗体需要JavaScript支持"
+
+#: dashboards/project/network_topology/templates/network_topology/index.html:33
+msgid "There are no networks, routers, or connected instances to display. "
+msgstr "没有可用的网络，路由或连接实例"
+
+#: dashboards/project/networks/tables.py:81
+msgid "Add Subnet"
+msgstr "添加子网"
+
+#: dashboards/project/networks/views.py:86
+msgid "Unable to retrieve network details."
+msgstr "无法检索到网络细节"
+
+#: dashboards/project/networks/workflows.py:39
+msgid "Network Name. This field is optional."
+msgstr "网络名.该项可选"
+
+#: dashboards/project/networks/workflows.py:47
+msgid ""
+"From here you can create a new network.\n"
+"In addition a subnet associated with the network can be created in the next panel."
+msgstr ""
+"从这里你可以创建一个新的网络.\n"
+"除了一个子网的网络可以在创建下一个面板。"
+
+#: dashboards/project/networks/workflows.py:61
+msgid "Subnet Name"
+msgstr "子网名"
+
+
+#: dashboards/project/networks/workflows.py:62
+msgid "Subnet Name. This field is optional."
+msgstr "子网名.该项可选"
+
+#: dashboards/project/networks/workflows.py:65
+#: dashboards/project/networks/subnets/tables.py:84
+#: dashboards/project/networks/subnets/workflows.py:85
+msgid "Network Address"
+msgstr "网络地址"
+
+#: dashboards/project/networks/workflows.py:68
+#: dashboards/project/networks/subnets/workflows.py:90
+msgid "Network address in CIDR format (e.g. 192.168.0.0/24)"
+msgstr "CIDR模式网络地址(例子:192.168.0.0/24)"
+
+#: dashboards/project/networks/workflows.py:75
+#: dashboards/project/networks/subnets/workflows.py:109
+msgid "Gateway IP (optional)"
+msgstr "网关IP(可选)"
+
+#: dashboards/project/networks/workflows.py:78
+msgid ""
+"IP address of Gateway (e.g. 192.168.0.254) The default value is the first IP"
+" of the network address (e.g. 192.168.0.1 for 192.168.0.0/24). If you use "
+"the default, leave blank. If you want to use no gateway, check 'Disable "
+"Gateway' below."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:87
+#: dashboards/project/networks/subnets/workflows.py:119
+msgid "Disable Gateway"
+msgstr "网关禁用"
+
+#: dashboards/project/networks/workflows.py:92
+msgid ""
+"You can create a subnet associated with the new network, in which case "
+"\"Network Address\" must be specified. If you wish to create a network "
+"WITHOUT a subnet, uncheck the \"Create Subnet\" checkbox."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:103
+msgid "Specify \"Network Address\" or clear \"Create Subnet\" checkbox."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:109
+msgid "Network Address and IP version are inconsistent."
+msgstr "网络地址和IP版本不一致"
+
+#: dashboards/project/networks/workflows.py:113
+#, python-format
+msgid "The subnet in the Network Address is too small (/%s)."
+msgstr "网络地址中的子网太短(/%s)."
+
+#: dashboards/project/networks/workflows.py:118
+msgid "Gateway IP and IP version are inconsistent."
+msgstr "网关IP和IP版本不一致"
+
+#: dashboards/project/networks/workflows.py:121
+msgid "Specify IP address of gateway or check \"Disable Gateway\"."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:141
+msgid "Enable DHCP"
+msgstr "DHCP启用"
+
+#: dashboards/project/networks/workflows.py:145
+msgid "Allocation Pools"
+msgstr "动态池"
+
+#: dashboards/project/networks/workflows.py:146
+msgid ""
+"IP address allocation pools. Each entry is "
+"&lt;start_ip_address&gt;,&lt;end_ip_address&gt; (e.g., "
+"192.168.1.100,192.168.1.120) and one entry per line."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:153
+msgid "DNS Name Servers"
+msgstr "DNS服务名"
+
+#: dashboards/project/networks/workflows.py:154
+msgid ""
+"IP address list of DNS name servers for this subnet. One entry per line."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:159
+msgid "Host Routes"
+msgstr "主机路由"
+
+#: dashboards/project/networks/workflows.py:160
+msgid ""
+"Additional routes announced to the hosts. Each entry is "
+"&lt;destination_cidr&gt;,&lt;nexthop&gt; (e.g., "
+"192.168.200.0/24,10.56.1.254)and one entry per line."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:168
+#: dashboards/project/networks/subnets/workflows.py:145
+msgid "You can specify additional attributes for the subnet."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:174
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(ip)s)"
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:182
+#, python-format
+msgid "%(field_name)s: Invalid IP address (value=%(network)s)"
+msgstr "%(field_name)s: 非法IP地址 (value=%(network)s)"
+
+#: dashboards/project/networks/workflows.py:193
+#, python-format
+msgid "Start and end addresses must be specified (value=%s)"
+msgstr "开始结束地址必须指定 (value=%s)"
+
+#: dashboards/project/networks/workflows.py:199
+#, python-format
+msgid "Start address is larger than end address (value=%s)"
+msgstr "开始地址大于结束地址 (value=%s) "
+
+#: dashboards/project/networks/workflows.py:217
+#, python-format
+msgid ""
+"Host Routes format error: Destination CIDR and nexthop must be specified "
+"(value=%s)"
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:242
+#, python-format
+msgid "Created network \"%s\"."
+msgstr "创建网络 \"%s\"."
+
+#: dashboards/project/networks/workflows.py:243
+#, python-format
+msgid "Unable to create network \"%s\"."
+msgstr "无法创建网络 \"%s\"."
+
+#: dashboards/project/networks/workflows.py:265
+#, python-format
+msgid "Network \"%s\" was successfully created."
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:269
+#, python-format
+msgid "Failed to create network \"%(network)s\": %(reason)s"
+msgstr "创建网络\"%(network)s\": %(reason)s失败"
+
+#: dashboards/project/networks/workflows.py:325
+#, python-format
+msgid "Subnet \"%s\" was successfully created."
+msgstr "子网\"%s\"建立成功"
+
+#: dashboards/project/networks/workflows.py:329
+#, python-format
+msgid "Failed to create subnet \"%(sub)s\" for network \"%(net)s\":  %(reason)s"
+msgstr ""
+
+#: dashboards/project/networks/workflows.py:345
+#, python-format
+msgid "Delete the created network \"%s\" due to subnet creation failure."
+msgstr "删除创建的网络\"%s\" 由于子网创建失败"
+
+#: dashboards/project/networks/workflows.py:353
+#, python-format
+msgid "Failed to delete network \"%s\""
+msgstr "无法删除网络 \"%s\""
+
+#: dashboards/project/networks/ports/tables.py:39
+msgid "Attached"
+msgstr "添加"
+
+#: dashboards/project/networks/ports/tables.py:41
+msgid "Detached"
+msgstr "分离"
+
+#: dashboards/project/networks/ports/tables.py:60
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:35
+msgid "Attached Device"
+msgstr "添加设备"
+
+#: dashboards/project/networks/ports/views.py:53
+msgid "Unable to retrieve port details"
+msgstr "无法检索端口细节"
+
+#: dashboards/project/networks/subnets/tabs.py:42
+msgid "Unable to retrieve subnet details."
+msgstr "无法检索子网细节"
+
+#: dashboards/project/networks/subnets/views.py:71
+msgid "Unable to retrieve subnet details"
+msgstr "无法检索子网细节"
+
+#: dashboards/project/networks/subnets/workflows.py:43
+msgid ""
+"You can create a subnet associated with the network. Advanced configuration "
+"are available at \"Subnet Detail\" tab."
+msgstr ""
+
+#: dashboards/project/networks/subnets/workflows.py:62
+#, python-format
+msgid "Created subnet \"%s\"."
+msgstr "创建子网 \"%s\"."
+
+#: dashboards/project/networks/subnets/workflows.py:63
+#, python-format
+msgid "Unable to create subnet \"%s\"."
+msgstr "无法创建子网 \"%s\"."
+
+#: dashboards/project/networks/subnets/workflows.py:112
+msgid ""
+"IP address of Gateway (e.g. 192.168.0.254). You need to specify an explicit "
+"address to set the gateway. If you want to use no gateway, check 'Disable "
+"Gateway' below."
+msgstr ""
+
+#: dashboards/project/networks/subnets/workflows.py:124
+msgid ""
+"You can update a subnet associated with the network. Advanced configuration "
+"are available at \"Subnet Detail\" tab."
+msgstr ""
+"你可以更新一个子网的网络。高级配置 "
+"在\"子网细节\"选项卡."
+
+#: dashboards/project/networks/subnets/workflows.py:155
+msgid "Update"
+msgstr "更新"
+
+#: dashboards/project/networks/subnets/workflows.py:156
+#, python-format
+msgid "Updated subnet \"%s\"."
+msgstr "更新子网 \"%s\"."
+
+#: dashboards/project/networks/subnets/workflows.py:157
+#, python-format
+msgid "Unable to update subnet \"%s\"."
+msgstr "无法更新子网 \"%s\"."
+
+#: dashboards/project/networks/subnets/workflows.py:185
+#, python-format
+msgid "Subnet \"%s\" was successfully updated."
+msgstr ""
+
+#: dashboards/project/networks/subnets/workflows.py:189
+#, python-format
+msgid "Failed to update subnet \"%(sub)s\":  %(reason)s"
+msgstr "更新子网失败 \"%(sub)s\":  %(reason)s"
+
+#: dashboards/project/networks/templates/networks/_detail_overview.html:3
+msgid "Network Overview"
+msgstr "网络概览"
+
+#: dashboards/project/networks/templates/networks/_detail_overview.html:22
+msgid "Provider Network"
+msgstr "网络供应商"
+
+#: dashboards/project/networks/templates/networks/_detail_overview.html:23
+msgid "Network Type"
+msgstr "网络类型"
+
+#: dashboards/project/networks/templates/networks/_detail_overview.html:24
+msgid "Physical Network"
+msgstr "物理网络"
+
+#: dashboards/project/networks/templates/networks/_detail_overview.html:25
+msgid "Segmentation ID"
+msgstr "细分ID"
+
+#: dashboards/project/networks/templates/networks/detail.html:6
+msgid "Network Detail: "
+msgstr "网络细节："
+
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:3
+msgid "Port Overview"
+msgstr "端口概览"
+
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:18
+msgid "Fixed IP"
+msgstr "修复IP"
+
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:22
+msgid "IP address:"
+msgstr "IP地址:"
+
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:23
+msgid "Subnet ID"
+msgstr "子网ID"
+
+#: dashboards/project/networks/templates/networks/ports/_detail_overview.html:29
+msgid "Mac Address"
+msgstr "Mac地址"
+
+#: dashboards/project/networks/templates/networks/ports/detail.html:3
+#: dashboards/project/networks/templates/networks/ports/detail.html:6
+msgid "Port Detail"
+msgstr "端口细节"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:3
+msgid "Subnet Overview"
+msgstr "子网概览"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:16
+msgid "IP version"
+msgstr "IP版本"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:20
+msgid "IP allocation pool"
+msgstr "动态IP池"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:23
+msgid "Start"
+msgstr "开始"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:24
+msgid " - End"
+msgstr "结束"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:27
+msgid "DHCP Enable"
+msgstr "允许DHCP"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:31
+msgid "Additional routes"
+msgstr "添加路由"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:34
+msgid "Destination"
+msgstr "目的"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:35
+msgid " : Next hop"
+msgstr ""
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:37
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:45
+msgid "None"
+msgstr "没有"
+
+#: dashboards/project/networks/templates/networks/subnets/_detail_overview.html:40
+msgid "DNS name server"
+msgstr "DNS服务名"
+
+#: dashboards/project/networks/templates/networks/subnets/detail.html:3
+#: dashboards/project/networks/templates/networks/subnets/detail.html:6
+msgid "Subnet Detail"
+msgstr "子网细节"
+
+#: dashboards/project/routers/tables.py:33
+msgid "Router"
+msgstr "路由器"
+
+#: dashboards/project/routers/tables.py:43
+#: dashboards/project/routers/tables.py:49
+#, python-format
+msgid "Unable to delete router \"%s\""
+msgstr "不能删除路由\"%s\""
+
+#: dashboards/project/routers/tables.py:78
+msgid "Clear"
+msgstr "清除"
+
+#: dashboards/project/routers/tables.py:79
+msgid "Cleared"
+msgstr "清除"
+
+#: dashboards/project/routers/tables.py:80
+#: dashboards/project/routers/ports/tables.py:33
+msgid "Gateway"
+msgstr "网关"
+
+#: dashboards/project/routers/tables.py:81
+msgid "Gateways"
+msgstr "网关"
+
+#: dashboards/project/routers/tables.py:91
+#, python-format
+msgid "Unable to clear gateway for router \"%(name)s\": \"%(msg)s\""
+msgstr "无法清理路由器网关 \"%(name)s\": \"%(msg)s\""
+
+#: dashboards/project/routers/tabs.py:37
+msgid "Unable to retrieve router details."
+msgstr "无法检索到路由细节"
+
+#: dashboards/project/routers/views.py:77
+#, python-format
+msgid "Unable to retrieve a list of external networks \"%s\"."
+msgstr "无法检索到外部网络列表 \"%s\"."
+
+#: dashboards/project/routers/views.py:89
+#, python-format
+msgid "External network \"%s\" not found."
+msgstr "外部网络 \"%s\" 没有找到"
+
+#: dashboards/project/routers/views.py:105
+#, python-format
+msgid "Unable to retrieve details for router \"%s\"."
+msgstr "无法检索到路由细节 \"%s\"."
+
+#: dashboards/project/routers/views.py:117
+#, python-format
+msgid "Unable to retrieve an external network \"%s\"."
+msgstr "无法检索到外部网络 \"%s\"."
+
+#: dashboards/project/routers/ports/forms.py:35
+#: dashboards/project/routers/ports/forms.py:94
+msgid "Router ID"
+msgstr "路由ID"
+
+#: dashboards/project/routers/ports/forms.py:51
+#: dashboards/project/routers/ports/forms.py:109
+#, python-format
+msgid "Failed to get network list %s"
+msgstr "无法得到网络列表 %s"
+
+#: dashboards/project/routers/ports/forms.py:67
+msgid "Select Subnet"
+msgstr "选择子网"
+
+#: dashboards/project/routers/ports/forms.py:69
+msgid "No subnets available."
+msgstr "没有可用的子网"
+
+#: dashboards/project/routers/ports/forms.py:77
+msgid "Interface added"
+msgstr "添加接口"
+
+#: dashboards/project/routers/ports/forms.py:82
+#, python-format
+msgid "Failed to add_interface %s"
+msgstr "不能添加接口  %s"
+
+#: dashboards/project/routers/ports/forms.py:118
+msgid "Select network"
+msgstr "选择网络"
+
+#: dashboards/project/routers/ports/forms.py:120
+msgid "No networks available."
+msgstr "没有网络连接"
+
+#: dashboards/project/routers/ports/forms.py:128
+msgid "Gateway interface is added"
+msgstr "网关接口已添加"
+
+#: dashboards/project/routers/ports/forms.py:133
+#, python-format
+msgid "Failed to set gateway %s"
+msgstr "无法设置网关 %s"
+
+#: dashboards/project/routers/ports/tables.py:50
+msgid "Interface"
+msgstr "接口"
+
+#: dashboards/project/routers/ports/tables.py:65
+#, python-format
+msgid "Failed to delete interface %s"
+msgstr "无法删除 interface %s"
+
+#: dashboards/project/routers/ports/views.py:50
+msgid "Unable to retrieve router."
+msgstr "无法检索路由"
+
+#: dashboards/project/routers/ports/views.py:82
+msgid "Unable to set gateway."
+msgstr "无法设置网关"
+
+#: dashboards/project/volumes/forms.py:33
+msgid "Size (GB)"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:34
+msgid "Encryption"
+msgstr "加密"
+
+#: dashboards/project/volumes/forms.py:35
+msgid "Use snapshot as a source"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:84
+#, python-format
+msgid "Volume size must be equal to or greater than the snapshot size (%sGB)"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:89
+msgid "Unable to load the specified snapshot."
+msgstr "不能加载指定快照"
+
+#: dashboards/project/volumes/forms.py:94
+msgid "Choose a snapshot"
+msgstr "选择一个快照"
+
+#: dashboards/project/volumes/forms.py:118
+#, python-format
+msgid "The volume size cannot be less than the snapshot size (%sGB)"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:127
+#, python-format
+msgid ""
+"A volume of %(req)iGB cannot be created as you only have %(avail)iGB of your"
+" quota available."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:134
+msgid "You are already using all of your available volumes."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:158
+msgid "Unable to create volume."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:167
+msgid "Attach to Instance"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:168
+msgid "Select an instance to attach to."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:212
+msgid "Unknown instance (None)"
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:226
+#, python-format
+msgid "Attaching volume %(vol)s to instance %(inst)s on %(dev)s."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:235
+msgid "Unable to attach volume."
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:259
+#, python-format
+msgid "Creating volume snapshot \"%s\""
+msgstr ""
+
+#: dashboards/project/volumes/forms.py:265
+msgid "Unable to create volume snapshot."
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:48
+#, python-format
+msgid "Unable to delete volume \"%s\". One or more snapshots depend on it."
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:68
+msgid "Edit Attachments"
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:97
+#, python-format
+msgid "%sGB"
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:110
+#: dashboards/project/volumes/views.py:152
+msgid "Unable to retrieve attachment information."
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:127
+#, python-format
+msgid "Attached to %(instance)s on %(dev)s"
+msgstr "添加 %(instance)s 到 %(dev)s"
+
+#: dashboards/project/volumes/tables.py:191
+msgid "Detach"
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:192
+msgid "Detaching"
+msgstr ""
+
+#: dashboards/project/volumes/tables.py:229
+#, python-format
+msgid "%(dev)s on instance %(instance_name)s"
+msgstr ""
+
+#: dashboards/project/volumes/tabs.py:41
+msgid "Unable to retrieve volume details."
+msgstr ""
+
+#: dashboards/project/volumes/views.py:49
+msgid "Unable to retrieve volume list."
+msgstr ""
+
+#: dashboards/project/volumes/views.py:56
+msgid "Unable to retrieve volume/instance attachment information"
+msgstr ""
+
+#: dashboards/project/volumes/views.py:133
+#: dashboards/project/volumes/views.py:143
+msgid "Unable to retrieve volume information."
+msgstr ""
+
+#: dashboards/project/volumes/templates/volumes/_attach.html:9
+#: dashboards/project/volumes/templates/volumes/attach.html:3
+#: dashboards/project/volumes/templates/volumes/attach.html:6
+msgid "Manage Volume Attachments"
+msgstr ""
+
+#: dashboards/project/volumes/templates/volumes/_attach.html:13
+msgid "Attach To Instance"
+msgstr "添加实例"
+
+#: dashboards/project/volumes/templates/volumes/_attach.html:22
+msgid "Attach Volume"
+msgstr "添加卷"
+
+#: dashboards/project/volumes/templates/volumes/_create.html:20
+#: dashboards/project/volumes/templates/volumes/_create_snapshot.html:18
+msgid "Volumes are block devices that can be attached to instances."
+msgstr ""
+
+#: dashboards/project/volumes/templates/volumes/_create.html:22
+msgid "Volume Quotas"
+msgstr "卷配额"
+
+#: dashboards/project/volumes/templates/volumes/_create.html:25
+msgid "Total Gigabytes"
+msgstr ""
+
+#: dashboards/project/volumes/templates/volumes/_create.html:34
+msgid "Number of Volumes"
+msgstr "卷数量"
+
+#: dashboards/project/volumes/templates/volumes/_create_snapshot.html:8
+#: dashboards/project/volumes/templates/volumes/_create_snapshot.html:23
+#: dashboards/project/volumes/templates/volumes/create_snapshot.html:3
+msgid "Create Volume Snapshot"
+msgstr "创建卷快照"
+
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:3
+msgid "Volume Overview"
+msgstr "卷概览"
+
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:34
+msgid "Attachments"
+msgstr ""
+
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:46
+msgid "Not attached"
+msgstr "没有连接"
+
+#: dashboards/project/volumes/templates/volumes/_detail_overview.html:52
+msgid "Metadata"
+msgstr "元数据"
+
+#: dashboards/project/volumes/templates/volumes/create.html:6
+msgid "Create a Volume"
+msgstr "创建卷"
+
+#: dashboards/project/volumes/templates/volumes/create_snapshot.html:6
+msgid "Create a Volume Snapshot"
+msgstr ""
+
+#: dashboards/settings/dashboard.py:24 templates/_header.html:4
+msgid "Settings"
+msgstr "设置"
+
+#: dashboards/settings/user/forms.py:73
+msgid "Settings saved."
+msgstr "保存设置"
+
+#: dashboards/settings/user/panel.py:25
+#: dashboards/settings/user/templates/user/_settings.html:8
+#: dashboards/settings/user/templates/user/settings.html:3
+#: dashboards/settings/user/templates/user/settings.html:6
+msgid "User Settings"
+msgstr "用户设置"
+
+#: dashboards/settings/user/templates/user/_settings.html:18
+msgid "From here you can modify dashboard settings for your user."
+msgstr "你可以为你的用户更改dashboard设置"
+
+#: templates/403.html:4 templates/403.html.py:9
+msgid "Forbidden"
+msgstr "禁止"
+
+#: templates/403.html:20 templates/404.html:19 templates/500.html:73
+msgid "Home"
+msgstr "主页"
+
+#: templates/404.html:4
+msgid "Page Not Found"
+msgstr "页面未找到"
+
+#: templates/404.html:9
+msgid "The page you were looking for doesn't exist"
+msgstr "你要找的页面不存在"
+
+#: templates/404.html:10
+msgid "You may have mistyped the address or the page may have moved."
+msgstr "你可能输入了错误的地址，或者该页面被删除了"
+
+#: templates/500.html:20
+msgid "Server error"
+msgstr "服务器错误"
+
+#: templates/500.html:67
+msgid "Something went wrong!"
+msgstr "出了一些错"
+
+#: templates/500.html:68
+msgid ""
+"An unexpected error has occurred. Try refreshing the page. If that doesn't "
+"help, contact your local administrator."
+msgstr "发生了一个意料之外的错误.尝试重新刷新页面，如果没有帮助，联系你的本地管理员"
+
+#: templates/500.html:74 templates/_header.html:6
+msgid "Help"
+msgstr "帮助"
+
+#: templates/_header.html:3
+msgid "Logged in as"
+msgstr ""
+
+#: templates/_header.html:8
+msgid "Sign Out"
+msgstr "退出"
+
+#: test/settings.py:49
+msgid "Password must be between 8 and 18 characters."
+msgstr ""
+
+#: usage/base.py:98
+msgid "Unable to retrieve usage information."
+msgstr ""
+
+#: usage/base.py:101
+msgid "You are viewing data for the future, which may or may not exist."
+msgstr ""
+
+#: usage/tables.py:11
+msgid "Download CSV Summary"
+msgstr "下载CSV总结"
+
+#: usage/tables.py:25
+msgid "VCPU Hours"
+msgstr ""
+
+#: usage/tables.py:30
+msgid "Project Name"
+msgstr "项目名称"
+
+#: usage/tables.py:32
+msgid "Disk GB Hours"
+msgstr ""
+
+#: usage/tables.py:40 usage/tables.py:68
+msgid "Usage Summary"
+msgstr ""
+
+#: usage/tables.py:60
+msgid "Uptime"
+msgstr ""
